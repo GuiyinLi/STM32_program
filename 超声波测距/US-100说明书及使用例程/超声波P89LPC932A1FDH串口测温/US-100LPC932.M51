@@ -1,0 +1,408 @@
+BL51 BANKED LINKER/LOCATER V5.03                                                        12/27/2010  10:45:56  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V5.03, INVOKED BY:
+D:\KEIL\C51\BIN\BL51.EXE .\START900.obj, US100Test.obj TO US-100LPC932 RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\START900.obj (?C_STARTUP)
+  US100Test.obj (US100TEST)
+  D:\KEIL\C51\LIB\C51S.LIB (?C?COPY)
+  D:\KEIL\C51\LIB\C51S.LIB (?C?LLDIIDATA)
+
+
+LINK MAP OF MODULE:  US-100LPC932 (?C_STARTUP)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0016H     UNIT         _DATA_GROUP_
+            DATA    001EH     0005H     UNIT         ?DT?US100TEST
+            DATA    0023H     0004H     UNIT         ?DT?DELAY1MS?US100TEST
+            DATA    0027H     0004H     UNIT         ?DT?DELAY5MS?US100TEST
+            DATA    002BH     0004H     UNIT         ?DT?DELAY400MS?US100TEST
+            IDATA   002FH     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     001CH     UNIT         ?PR?UART_INIT?US100TEST
+                    001FH     0004H                  *** GAP ***
+            CODE    0023H     0003H     ABSOLUTE     
+            CODE    0026H     0116H     UNIT         ?C?LIB_CODE
+            CODE    013CH     0088H     UNIT         ?PR?_DISPLAYLED?US100TEST
+            CODE    01C4H     004CH     UNIT         ?PR?_DISPLAYTEMPERATURE?US100TEST
+            CODE    0210H     0030H     UNIT         ?PR?UART_ISR?US100TEST
+            CODE    0240H     0023H     UNIT         ?PR?DELAY400MS?US100TEST
+            CODE    0263H     001CH     UNIT         ?PR?MAIN?US100TEST
+            CODE    027FH     0019H     UNIT         ?PR?DELAY5MS?US100TEST
+            CODE    0298H     0018H     UNIT         ?PR?DELAY1MS?US100TEST
+            CODE    02B0H     000CH     UNIT         ?C_C51STARTUP
+            CODE    02BCH     000CH     UNIT         ?PR?INITIOPORT?US100TEST
+            CODE    02C8H     000BH     UNIT         ?CO?US100TEST
+            CODE    02D3H     0008H     UNIT         ?PR?_UARTSND?US100TEST
+            CODE    02DBH     0008H     UNIT         ?PR?METERTEMPBYUART?US100TEST
+                    02E3H     FC1DH                  *** GAP ***
+            CODE    FF00H     000CH     ABSOLUTE     
+
+
+
+OVERLAY MAP OF MODULE:   US-100LPC932 (?C_STARTUP)
+
+
+SEGMENT                                     DATA_GROUP 
+  +--> CALLED SEGMENT                     START    LENGTH
+---------------------------------------------------------
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/27/2010  10:45:56  PAGE 2
+
+
+?C_C51STARTUP                             -----    -----
+  +--> ?PR?MAIN?US100TEST
+
+?PR?MAIN?US100TEST                        0008H    0005H
+  +--> ?PR?INITIOPORT?US100TEST
+  +--> ?PR?UART_INIT?US100TEST
+  +--> ?PR?METERTEMPBYUART?US100TEST
+  +--> ?PR?_DISPLAYTEMPERATURE?US100TEST
+
+?PR?METERTEMPBYUART?US100TEST             -----    -----
+  +--> ?PR?_UARTSND?US100TEST
+
+?PR?_DISPLAYTEMPERATURE?US100TEST         000DH    0003H
+  +--> ?PR?_DISPLAYLED?US100TEST
+
+?PR?_DISPLAYLED?US100TEST                 0010H    000EH
+  +--> ?CO?US100TEST
+
+
+
+SYMBOL TABLE OF MODULE:  US-100LPC932 (?C_STARTUP)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ?C_STARTUP
+  C:02B0H         SEGMENT       ?C_C51STARTUP
+  I:002FH         SEGMENT       ?STACK
+  C:0000H         PUBLIC        ?C_STARTUP
+  N:0001H         SYMBOL        BOE
+  N:0001H         SYMBOL        BOOTSTAT
+  N:001EH         SYMBOL        BOOTVEC
+  N:0003H         SYMBOL        FOSC
+  N:0000H         SYMBOL        IBPSTACK
+  N:0100H         SYMBOL        IBPSTACKTOP
+  N:0100H         SYMBOL        IDATALEN
+  C:02B3H         SYMBOL        IDATALOOP
+  N:0000H         SYMBOL        PBPSTACK
+  N:0100H         SYMBOL        PBPSTACKTOP
+  N:0001H         SYMBOL        RPD
+  N:0000H         SYMBOL        SEC0
+  N:0000H         SYMBOL        SEC1
+  N:0000H         SYMBOL        SEC2
+  N:0000H         SYMBOL        SEC3
+  N:0000H         SYMBOL        SEC4
+  N:0000H         SYMBOL        SEC5
+  N:0000H         SYMBOL        SEC6
+  N:0000H         SYMBOL        SEC7
+  D:0081H         SYMBOL        SP
+  C:02B0H         SYMBOL        STARTUP1
+  N:0000H         SYMBOL        WDSE
+  N:0000H         SYMBOL        WDTE
+  N:0000H         SYMBOL        XBPSTACK
+  N:0200H         SYMBOL        XBPSTACKTOP
+  N:0000H         SYMBOL        XDATALEN
+  N:0000H         SYMBOL        XDATASTART
+  N:0063H         SYMBOL        _UCFG1
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/27/2010  10:45:56  PAGE 3
+
+
+  N:0000H         SYMBOL        _UCFG2
+  C:0000H         LINE#         229
+  C:02B0H         LINE#         236
+  C:02B2H         LINE#         237
+  C:02B3H         LINE#         238
+  C:02B4H         LINE#         239
+  C:02B6H         LINE#         277
+  C:02B9H         LINE#         278
+  -------         ENDMOD        ?C_STARTUP
+
+  -------         MODULE        US100TEST
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  B:00A0H.5       PUBLIC        SCK_SHBit
+  D:0084H         PUBLIC        P0M1
+  D:0091H         PUBLIC        P1M1
+  D:0085H         PUBLIC        P0M2
+  D:0080H         PUBLIC        P0
+  D:00A4H         PUBLIC        P2M1
+  D:0092H         PUBLIC        P1M2
+  D:0090H         PUBLIC        P1
+  D:00A5H         PUBLIC        P2M2
+  D:00A0H         PUBLIC        P2
+  D:00B0H         PUBLIC        P3
+  B:00A0H.7       PUBLIC        RCK_STMM
+  B:00A8H.7       PUBLIC        EA
+  C:0210H         PUBLIC        UART_ISR
+  D:00A8H         PUBLIC        IEN0
+  D:00E8H         PUBLIC        IEN1
+  C:013CH         PUBLIC        _DisplayLED
+  D:00BAH         PUBLIC        SSTAT
+  C:02DBH         PUBLIC        MeterTempByUART
+  B:00A8H.4       PUBLIC        ES
+  D:001EH         PUBLIC        GTempera
+  B:0098H.0       PUBLIC        RI
+  B:0098H.1       PUBLIC        TI
+  C:0263H         PUBLIC        main
+  D:001FH         PUBLIC        RcvIndex
+  D:0020H         PUBLIC        GLengthHigh
+  D:0099H         PUBLIC        SBUF
+  D:0098H         PUBLIC        SCON
+  D:0088H         PUBLIC        TCON
+  D:00BDH         PUBLIC        BRGCON
+  D:0021H         PUBLIC        LastRcvData
+  C:02C8H         SYMBOL        _?ix1000
+  C:02D3H         PUBLIC        _UARTSnd
+  C:0240H         PUBLIC        Delay400Ms
+  D:00B8H         PUBLIC        IP0
+  D:00C8H         PUBLIC        TCR20
+  C:01C4H         PUBLIC        _DisplayTemperature
+  B:00A0H.6       PUBLIC        DIO_DS
+  C:0003H         PUBLIC        UART_init
+  C:02BCH         PUBLIC        InitIOPort
+  D:00D8H         PUBLIC        I2CON
+  D:00BEH         PUBLIC        BRGR0
+  D:00BFH         PUBLIC        BRGR1
+  D:0022H         PUBLIC        GLengthLow
+  C:0298H         PUBLIC        Delay1Ms
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/27/2010  10:45:56  PAGE 4
+
+
+  C:027FH         PUBLIC        Delay5Ms
+  D:00D0H         PUBLIC        PSW
+  -------         PROC          UART_ISR
+  C:0210H         LINE#         28
+  C:0214H         LINE#         30
+  C:0216H         LINE#         31
+  C:0219H         LINE#         32
+  C:021DH         LINE#         33
+  C:021DH         LINE#         34
+  C:0220H         LINE#         35
+  C:0222H         LINE#         36
+  C:0224H         LINE#         37
+  C:0229H         LINE#         38
+  C:0229H         LINE#         39
+  C:022CH         LINE#         40
+  C:022FH         LINE#         41
+  C:0231H         LINE#         42
+  C:0236H         LINE#         43
+  C:0236H         LINE#         44
+  C:0239H         LINE#         45
+  C:023BH         LINE#         46
+  C:023BH         LINE#         47
+  -------         ENDPROC       UART_ISR
+  -------         PROC          _UARTSND
+  D:0007H         SYMBOL        dat
+  C:02D3H         LINE#         49
+  C:02D3H         LINE#         50
+  C:02D3H         LINE#         52
+  C:02D5H         LINE#         53
+  C:02D7H         LINE#         54
+  C:02DAH         LINE#         56
+  -------         ENDPROC       _UARTSND
+  -------         PROC          UART_INIT
+  C:0003H         LINE#         59
+  C:0003H         LINE#         60
+  C:0003H         LINE#         61
+  C:0006H         LINE#         62
+  C:0009H         LINE#         63
+  C:000CH         LINE#         64
+  C:000FH         LINE#         67
+  C:0012H         LINE#         69
+  C:0015H         LINE#         70
+  C:0018H         LINE#         71
+  C:001AH         LINE#         72
+  C:001CH         LINE#         74
+  C:001EH         LINE#         75
+  -------         ENDPROC       UART_INIT
+  -------         PROC          INITIOPORT
+  C:02BCH         LINE#         78
+  C:02BCH         LINE#         79
+  C:02BCH         LINE#         81
+  C:02BFH         LINE#         82
+  C:02C1H         LINE#         84
+  C:02C4H         LINE#         85
+  C:02C7H         LINE#         86
+  -------         ENDPROC       INITIOPORT
+  -------         PROC          _DISPLAYLED
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/27/2010  10:45:56  PAGE 5
+
+
+  D:0010H         SYMBOL        LEDid
+  D:0011H         SYMBOL        Value
+  D:0012H         SYMBOL        Isdot
+  -------         DO            
+  D:0007H         SYMBOL        tempa
+  D:0006H         SYMBOL        tempb
+  D:0003H         SYMBOL        tempc
+  D:0005H         SYMBOL        tempd
+  D:0013H         SYMBOL        NumValue
+  -------         ENDDO         
+  C:013CH         LINE#         89
+  C:0142H         LINE#         90
+  C:0142H         LINE#         93
+  C:0155H         LINE#         95
+  C:0157H         LINE#         96
+  C:0166H         LINE#         97
+  C:016DH         LINE#         98
+  C:0170H         LINE#         99
+  C:0177H         LINE#         100
+  C:017BH         LINE#         101
+  C:017FH         LINE#         104
+  C:0181H         LINE#         105
+  C:0183H         LINE#         106
+  C:0183H         LINE#         107
+  C:0185H         LINE#         108
+  C:0187H         LINE#         109
+  C:018DH         LINE#         110
+  C:018FH         LINE#         111
+  C:0191H         LINE#         112
+  C:0195H         LINE#         113
+  C:0199H         LINE#         115
+  C:019BH         LINE#         116
+  C:019DH         LINE#         117
+  C:019DH         LINE#         118
+  C:019FH         LINE#         119
+  C:01A1H         LINE#         120
+  C:01A7H         LINE#         121
+  C:01A9H         LINE#         122
+  C:01ABH         LINE#         123
+  C:01AFH         LINE#         124
+  C:01B3H         LINE#         126
+  C:01B5H         LINE#         127
+  C:01B7H         LINE#         128
+  C:01B9H         LINE#         129
+  C:01BBH         LINE#         130
+  C:01BDH         LINE#         131
+  C:01BFH         LINE#         132
+  C:01C1H         LINE#         133
+  C:01C3H         LINE#         135
+  -------         ENDPROC       _DISPLAYLED
+  -------         PROC          _DISPLAYTEMPERATURE
+  D:0007H         SYMBOL        tempa
+  -------         DO            
+  D:000DH         SYMBOL        Decade
+  D:000EH         SYMBOL        Unit
+  D:000FH         SYMBOL        FlagPosi
+  -------         ENDDO         
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/27/2010  10:45:56  PAGE 6
+
+
+  C:01C4H         LINE#         137
+  C:01C4H         LINE#         138
+  C:01C4H         LINE#         141
+  C:01CAH         LINE#         142
+  C:01CAH         LINE#         143
+  C:01CEH         LINE#         144
+  C:01D1H         LINE#         145
+  C:01D3H         LINE#         147
+  C:01D3H         LINE#         148
+  C:01D8H         LINE#         149
+  C:01DBH         LINE#         150
+  C:01DBH         LINE#         152
+  C:01E1H         LINE#         153
+  C:01E3H         LINE#         155
+  C:01EAH         LINE#         156
+  C:01F2H         LINE#         158
+  C:01F6H         LINE#         159
+  C:01FEH         LINE#         160
+  C:0207H         LINE#         161
+  -------         ENDPROC       _DISPLAYTEMPERATURE
+  -------         PROC          METERTEMPBYUART
+  C:02DBH         LINE#         164
+  C:02DBH         LINE#         165
+  C:02DBH         LINE#         166
+  C:02DEH         LINE#         167
+  -------         ENDPROC       METERTEMPBYUART
+  -------         PROC          MAIN
+  -------         DO            
+  D:0008H         SYMBOL        tempa
+  D:0009H         SYMBOL        PreLength
+  -------         ENDDO         
+  C:0263H         LINE#         170
+  C:0263H         LINE#         171
+  C:0263H         LINE#         175
+  C:0266H         LINE#         176
+  C:0269H         LINE#         178
+  C:0269H         LINE#         179
+  C:0269H         LINE#         180
+  C:026CH         LINE#         181
+  C:026FH         LINE#         182
+  C:026FH         LINE#         183
+  C:0274H         LINE#         184
+  -------         ENDPROC       MAIN
+  -------         PROC          DELAY1MS
+  -------         DO            
+  D:0023H         SYMBOL        TempCyc
+  -------         ENDDO         
+  C:0298H         LINE#         190
+  C:0298H         LINE#         191
+  C:0298H         LINE#         192
+  C:02A2H         LINE#         193
+  C:02AFH         LINE#         194
+  -------         ENDPROC       DELAY1MS
+  -------         PROC          DELAY5MS
+  -------         DO            
+  D:0027H         SYMBOL        TempCyc
+  -------         ENDDO         
+BL51 BANKED LINKER/LOCATER V5.03                                                      12/27/2010  10:45:56  PAGE 7
+
+
+  C:027FH         LINE#         196
+  C:027FH         LINE#         197
+  C:027FH         LINE#         198
+  C:028AH         LINE#         199
+  C:0297H         LINE#         200
+  -------         ENDPROC       DELAY5MS
+  -------         PROC          DELAY400MS
+  -------         DO            
+  D:0003H         SYMBOL        TempCycA
+  D:002BH         SYMBOL        TempCycB
+  -------         ENDDO         
+  C:0240H         LINE#         203
+  C:0240H         LINE#         204
+  C:0240H         LINE#         205
+  C:0242H         LINE#         207
+  C:0248H         LINE#         208
+  C:0248H         LINE#         209
+  C:0253H         LINE#         210
+  C:0262H         LINE#         211
+  C:0262H         LINE#         213
+  -------         ENDPROC       DELAY400MS
+  -------         ENDMOD        US100TEST
+
+  -------         MODULE        ?C?COPY
+  C:00F6H         PUBLIC        ?C?COPY
+  -------         ENDMOD        ?C?COPY
+
+  -------         MODULE        ?C?LLDIIDATA
+  C:0125H         PUBLIC        ?C?LLDIIDATA
+  C:011CH         PUBLIC        ?C?LLDIIDATA1
+  C:011EH         PUBLIC        ?C?LLDIIDATA8
+  -------         ENDMOD        ?C?LLDIIDATA
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY1MS?US100TEST
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY5MS?US100TEST
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY400MS?US100TEST
+
+Program Size: data=48.0 xdata=0 code=747
+LINK/LOCATE RUN COMPLETE.  3 WARNING(S),  0 ERROR(S)

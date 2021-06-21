@@ -1,0 +1,6 @@
+--cpu Cortex-M3 -g --apcs=interwork 
+-I.\RTE\_TIM3-PWM-DEMO
+-I"E:\Keil5 MDK\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include"
+-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"
+--pd "__UVISION_VERSION SETA 526" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"
+--list .\startup_stm32f10x_hd.lst --xref -o .\startup_stm32f10x_hd.o --depend .\startup_stm32f10x_hd.d "..\CMSIS\startup\startup_stm32f10x_hd.s"

@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\1.Work\线性CCD 电磁 红外等巡线\线性CCD\线性CCD模块附送资料\STM32测试\STM32F405RGT6线性CCD测试代码\USER\Minibalance.uvproj
+Project File Date:  06/02/2017
+
+<h2>Output:</h2>
+Build target 'MinibalanceF4'
+compiling usart.c...
+linking...
+Program Size: Code=14082 RO-data=3086 RW-data=80 ZI-data=2912  
+FromELF: creating hex file...
+"..\OBJ\Minibalance.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+and 1 error messages.
+"..\OBJ\Minibalance.axf" - 1 Error(s), 0 Warning(s).
+Target not created
+arning(s).
+Target not created
+on "uart2_init" declared implicitly
+        uart2_init(9600);               //=====串口2初始化
+main.c(17): warning:  #223-D: function "IIC_Init" declared implicitly
+        IIC_Init();                     //=====IIC初始化
+main.c(18): warning:  #223-D: function "MPU6050_initialize" declared implicitly
+    MPU6050_initialize();           //=====MPU6050初始化        
+main.c(19): warning:  #223-D: function "DMP_Init" declared implicitly
+    DMP_Init();                     //=====初始化DMP 
+main.c(21): warning:  #223-D: function "MiniBalance_PWM_Init" declared implicitly
+        MiniBalance_PWM_Init(8400,1);   //=====PWM初始化
+main.c: 7 warnings, 0 errors
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling adc.c...
+compiling key.c...
+compiling LED.C...
+compiling oled.c...
+compiling timer.c...
+..\MiniBalance_HARDWARE\TIMER\timer.c(25): warning:  #1-D: last line of file ends without a newline
+  }
+..\MiniBalance_HARDWARE\TIMER\timer.c: 1 warning, 0 errors
+compiling control.c...
+..\MiniBalance\CONTROL\control.c(2): error:  #5: cannot open source input file "filter.h": No such file or directory
+  #include "filter.h"   
+..\MiniBalance\CONTROL\control.c: 0 warnings, 1 error
+compiling show.c...
+..\MiniBalance\show\show.c(33): warning:  #186-D: pointless comparison of unsigned integer with zero
+                if( CCD_Zhongzhi<0)             OLED_ShowString(10,20,"-"),
+..\MiniBalance\show\show.c(38): warning:  #186-D: pointless comparison of unsigned integer with zero
+                if( CCD_Yuzhi<0)                OLED_ShowString(80,20,"-"),
+..\MiniBalance\show\show.c: 2 warnings, 0 errors
+"..\OBJ\Minibalance.axf" - 1 Error(s), 10 Warning(s).
+Target not created
+de "inv_mpu.h"
+..\MiniBalance_HARDWARE\ADC\adc.c: 0 warnings, 1 error
+compiling key.c...
+..\SYSTEM\sys\sys.h(94): error:  #5: cannot open source input file "inv_mpu.h": No such file or directory
+  #include "inv_mpu.h"
+..\MiniBalance_HARDWARE\KEY\key.c: 0 warnings, 1 error
+compiling LED.C...
+..\SYSTEM\sys\sys.h(94): error:  #5: cannot open source input file "inv_mpu.h": No such file or directory
+  #include "inv_mpu.h"
+..\MiniBalance_HARDWARE\LED\LED.C: 0 warnings, 1 error
+compiling oled.c...
+..\SYSTEM\sys\sys.h(94): error:  #5: cannot open source input file "inv_mpu.h": No such file or directory
+  #include "inv_mpu.h"
+..\MiniBalance_HARDWARE\OLED\oled.c: 0 warnings, 1 error
+compiling timer.c...
+..\SYSTEM\sys\sys.h(94): error:  #5: cannot open source input file "inv_mpu.h": No such file or directory
+  #include "inv_mpu.h"
+..\MiniBalance_HARDWARE\TIMER\timer.c: 0 warnings, 1 error
+compiling control.c...
+..\SYSTEM\sys\sys.h(94): error:  #5: cannot open source input file "inv_mpu.h": No such file or directory
+  #include "inv_mpu.h"
+..\MiniBalance\CONTROL\control.c: 0 warnings, 1 error
+compiling DataScope_DP.C...
+compiling show.c...
+..\SYSTEM\sys\sys.h(94): error:  #5: cannot open source input file "inv_mpu.h": No such file or directory
+  #include "inv_mpu.h"
+..\MiniBalance\show\show.c: 0 warnings, 1 error
+"..\OBJ\Minibalance.axf" - 11 Error(s), 0 Warning(s).
+Target not created

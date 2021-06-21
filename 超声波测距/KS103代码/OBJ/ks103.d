@@ -1,0 +1,16 @@
+..\obj\ks103.o: ..\FWLIB\KS103\ks103.c
+..\obj\ks103.o: ..\FWLIB\KS103\ks103.h
+..\obj\ks103.o: ..\SYSTEM\sys\sys.h
+..\obj\ks103.o: ..\USER\stm32f10x.h
+..\obj\ks103.o: ..\CORE\core_cm3.h
+..\obj\ks103.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\ks103.o: ..\USER\system_stm32f10x.h
+..\obj\ks103.o: ..\USER\stm32f10x_conf.h
+..\obj\ks103.o: ..\STM3210X\inc\stm32f10x_gpio.h
+..\obj\ks103.o: ..\USER\stm32f10x.h
+..\obj\ks103.o: ..\STM3210X\inc\stm32f10x_rcc.h
+..\obj\ks103.o: ..\STM3210X\inc\stm32f10x_usart.h
+..\obj\ks103.o: ..\STM3210X\inc\misc.h
+..\obj\ks103.o: ..\FWLIB\IIC\iic.h
+..\obj\ks103.o: ..\SYSTEM\delay\delay.h
+..\obj\ks103.o: ..\FWLIB\USART2\usart2.h

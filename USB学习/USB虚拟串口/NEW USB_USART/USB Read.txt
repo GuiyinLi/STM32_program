@@ -1,0 +1,30 @@
+1.组成：STM32F103的USB模块实现了标准USB接口的所有特性，它由：串行接口控制器（SIE）、定时器、分组缓冲器接口、端点相关寄存器、控制寄存器和中断寄存器等部分组成。
+2.注意：USB与CAN共用一个专用的512字节SRAM存储器，用于数据的收发，他们必须互斥访问，所以CAN和USB不能同时使用！！！
+3.USB驱动库：ST提供了我们一个完整的USB FS从机驱动库，通过这个库，我们可以很方便的实现我们所要的功能
+4.虚拟串口实验：STM32_USB-FS-Device_Lib_V4.0.0\Projects\Virtual_COM_Port这个例程，以实现USB虚拟串口的功能。
+5代码移植：Usre---USB应用接口层相关代码，实现各种USB功能，是移植重点
+                  USB-FS-Device_Driver-----USB FS从机驱动代码 不做改动 驱动代码说明详见                  CD00158241.PDF
+6：USB通信需要用到外部中断
+7.移植步骤：将官方代码复制到USB文件夹中->复制USB文件夹到工程文件中->在工程里面添加                        USB_CORE（USB FS驱动代码 不改动）和USB_CONFIG（功能代码）
+8.修改部分：platform_config.h  
+                   hw_config.c  ：所有函数   hw_config.h
+                   usb_endp.c   ：void EP1_IN_Callback (void)   void SOF_Callback(void)
+                   usb_prop.c    ： 注释掉Virtual_Com_Port_init函数里面对该函数的调用。
+                   usb_pwr.c     ：  void Suspend(void)
+9.安装：USB虚拟串口实验，在测试的时候，需要安装ST提供的一个电脑端虚拟串口驱动软件，否            则电脑将无法识别。软件路径：光盘?软件资料?软件?STM32 USB虚拟串口驱动?         VCP_V1.4.0_Setup.exe
+10.使用（main()）：添加头文件"usb_lib.h"    "hw_config.h"     "usb_pwr.h"
+                              初始化  USB_Port_Set(0); 	//USB断开
+	                         delay_ms(700);
+	                         USB_Port_Set(1);	//USB连接
+ 	                         Set_USBClock();               //开始初始化
+ 	                         USB_Interrupts_Config();    
+ 	                         USB_Init();	  
+                              参数：bDeviceStateUSB连接状态参数   USB_USART_RX_STA接收标志数据
+                              函数：void USB_USART_SendData(u8 data)发送函数（单个字节）
+                                        void usb_printf(char* fmt,...)  串口打印函数
+                                void USB_To_USART_Send_Data(u8* data_buffer, u8 Nb_bytes)接收函数
+11.USB读卡器实验：移植官方的Mass_Storage例程
+12.触控鼠标实验：  移植官方的JoyStickMouse例程
+13.用途：USBHID类就是用于键盘、鼠标等人机接口设备通讯，USBCDC类是通讯类，可用于模                    拟串口通讯。开发一个带USB通讯接口的设备首要的是确定要开发的是哪一类设备，设备                和主机之间交换哪些信息，交换信息的方式有什么特征，以此来确定可以使用USB规范中                的哪种类协议。如果你的设备比较特殊或者你的设备极其简单，你也可以自己开发驱动程                序。
+14常用：带USB接口的外部设备 读卡器 模拟串口
+14.设备检测：在设备链接主机时，会检测设备电平，如果检测到在D+上有上拉电阻说明是全速设                        备，如果检测到在D-上有上拉电阻说明是低速设备

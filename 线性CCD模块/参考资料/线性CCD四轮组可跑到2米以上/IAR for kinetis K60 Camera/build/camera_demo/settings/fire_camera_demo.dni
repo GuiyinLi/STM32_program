@@ -1,0 +1,78 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=820546541
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=0
+[JLinkDriver]
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000002
+[watch_formats]
+Fmt0={W}0:i	3	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Trace1]
+Enabled=0
+ShowSource=1
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "0x00002F8E" 0 0 1 "" 0 "" 0
+Bp1=_ 0 "EMUL_CODE" "0x00002FA4" 0 0 1 "" 0 "" 0
+Bp2=_ 0 "EMUL_CODE" "0x00002FA6" 0 0 1 "" 0 "" 0
+Bp3=_ 0 "EMUL_CODE" "0x00002E84" 0 0 1 "" 0 "" 0
+Bp4=_ 0 "EMUL_CODE" "0x00002E9C" 0 0 1 "" 0 "" 0
+Bp5=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\src\app\isr.c}.364.5" 0 0 1 "" 0 "" 0
+Bp6=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\src\app\isr.c}.345.5" 0 0 1 "" 0 "" 0
+Count=7
+[Aliases]
+A0=_ "C:\Documents and Settings\Administrator\桌面\4月20号\IAR for kinetis K60 Camera\src\projects\fire_camera_demo\main.c" ""
+A1=_ "C:\Documents and Settings\Administrator\桌面\4月20号单双线可进去也可以在中间，\IAR for kinetis K60 Camera\src\projects\fire_camera_demo\main.c" ""
+A2=_ "C:\Documents and Settings\Administrator\桌面\4月20号单双线可进去也可以在中间，没有出单双线\IAR for kinetis K60 Camera\src\projects\fire_camera_demo\main.c" ""
+A3=_ "C:\Documents and Settings\Administrator\桌面\4月22日NO\IAR for kinetis K60 Camera\src\projects\fire_camera_demo\main.c" ""
+A4=_ "C:\Documents and Settings\Administrator\桌面\4月25日22点43大S不行\IAR for kinetis K60 Camera\src\projects\fire_camera_demo\main.c" ""
+A5=_ "C:\Documents and Settings\Administrator\桌面\4月25日NO\IAR for kinetis K60 Camera\src\projects\fire_camera_demo\main.c" ""
+A6=_ "C:\Documents and Settings\Administrator\桌面\4月25日no_no\IAR for kinetis K60 Camera\src\projects\fire_camera_demo\main.c" ""
+A7=_ "C:\Documents and Settings\Administrator\桌面\4月26     2100\IAR for kinetis K60 Camera\src\projects\fire_camera_demo\main.c" ""
+A8=_ "C:\Documents and Settings\Administrator\桌面\4月3号 艾田\IAR for kinetis K60 Camera\src\common\startup.c" ""
+A9=_ "C:\Documents and Settings\Administrator\桌面\4月3号 艾田\IAR for kinetis K60 Camera\src\cpu\arm_cm4.c" ""
+A10=_ "C:\Documents and Settings\Administrator\桌面\4月3号 艾田\IAR for kinetis K60 Camera\src\cpu\crt0.s" ""
+A11=_ "C:\Documents and Settings\Administrator\桌面\4月3号 艾田\IAR for kinetis K60 Camera\src\cpu\sysinit.c" ""
+A12=_ "C:\Documents and Settings\Administrator\桌面\4月3号 艾田\IAR for kinetis K60 Camera\src\drivers\adc\adc.c" ""
+A13=_ "C:\Documents and Settings\Administrator\桌面\4月3号 艾田\IAR for kinetis K60 Camera\src\drivers\i2c\i2c.c" ""
+A14=_ "C:\Documents and Settings\Administrator\桌面\4月3号 艾田\IAR for kinetis K60 Camera\src\drivers\mcg\mcg.c" ""
+A15=_ "C:\Documents and Settings\Administrator\桌面\4月3号 艾田\IAR for kinetis K60 Camera\src\drivers\uart\uart.c" ""
+A16=_ "C:\Documents and Settings\Administrator\桌面\4月3号 艾田\IAR for kinetis K60 Camera\src\projects\fire_camera_demo\main.c" ""
+A17=_ "C:\Documents and Settings\Administrator\桌面\NO\IAR for kinetis K60 Camera\src\projects\fire_camera_demo\main.c" ""
+A18=_ "C:\Users\Administrator\Desktop\3月16日15：01CCD图像调试结束\IAR for kinetis K60 Camera\src\projects\fire_camera_demo\main.c" ""
+A19=_ "C:\Users\Administrator\Desktop\刘叶飞\IAR for kinetis K60 Camera\src\common\startup.c" ""
+A20=_ "C:\Users\Administrator\Desktop\校赛\IAR for kinetis K60 Camera\src\projects\fire_camera_demo\main.c" ""
+Count=21
+SuppressDialog=1

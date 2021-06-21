@@ -1,0 +1,14 @@
+..\obj\usart_1.o: ..\HARDWARE\USART\usart.c
+..\obj\usart_1.o: ..\HARDWARE\USART\usart.h
+..\obj\usart_1.o: ..\USER\stm32f10x.h
+..\obj\usart_1.o: ..\CORE\core_cm3.h
+..\obj\usart_1.o: D:\keil\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\usart_1.o: ..\USER\system_stm32f10x.h
+..\obj\usart_1.o: ..\USER\stm32f10x_conf.h
+..\obj\usart_1.o: ..\STM3210X\inc\stm32f10x_gpio.h
+..\obj\usart_1.o: ..\USER\stm32f10x.h
+..\obj\usart_1.o: ..\STM3210X\inc\stm32f10x_rcc.h
+..\obj\usart_1.o: ..\STM3210X\inc\stm32f10x_usart.h
+..\obj\usart_1.o: ..\STM3210X\inc\misc.h
+..\obj\usart_1.o: ..\HARDWARE\LED\led.h
+..\obj\usart_1.o: ..\SYSTEM\sys\sys.h

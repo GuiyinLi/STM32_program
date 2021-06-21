@@ -1,0 +1,41 @@
+
+T1240 000:764 SEGGER J-Link V4.96d Log File (0015ms, 0290ms total)
+T1240 000:764 DLL Compiled: Jan 29 2015 11:45:37 (0015ms, 0290ms total)
+T1240 000:764 Logging started @ 2018-07-21 10:03 (0016ms, 0291ms total)
+T1240 000:780 JLINK_SetWarnOutHandler(...) (0000ms, 0291ms total)
+T1240 000:780 JLINK_OpenEx(...)
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N: 20090928
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0269ms, 0560ms total)
+T1240 001:049 JLINK_SetErrorOutHandler(...) (0000ms, 0560ms total)
+T1240 001:049 JLINK_ExecCommand("ProjectFile = "C:\Users\Dell\Desktop\YD02-STM32F407ZGT6miniºËÐÄ°å×ÊÁÏ\²âÊÔ³ÌÐò\STM32F407ºËÐÄ°å²âÊÔ³ÌÐò(LED)\Project\MDK-ARM\JLinkSettings.ini"", ...)  returns 0x00 (0005ms, 0565ms total)
+T1240 001:054 JLINK_ExecCommand("Device = STM32F407ZG", ...)Device "STM32F407ZG" selected.  returns 0x00 (0002ms, 0567ms total)
+T1240 001:056 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0567ms total)
+T1240 001:056 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0567ms total)
+T1240 001:057 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0567ms total)
+T1240 001:057 JLINK_GetFirmwareString(...) (0000ms, 0567ms total)
+T1240 001:057 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0567ms total)
+T1240 001:057 JLINK_GetCompileDateTime() (0000ms, 0567ms total)
+T1240 001:057 JLINK_GetFirmwareString(...) (0000ms, 0567ms total)
+T1240 001:057 JLINK_GetHardwareVersion()  returns 0x11170 (0001ms, 0568ms total)
+T1240 001:058 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 0569ms total)
+T1240 001:059 JLINK_SetSpeed(5000) (0000ms, 0569ms total)
+T1240 001:060 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0569ms total)
+T1240 001:060 JLINK_Reset() >0x108 TIF>Found SWD-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x108 TIF>Found SWD-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF>
+ >0x21 TIF> >0x0D TIF> >0x21 TIF>
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x00 (0000ms, 0000ms total)
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x00 (0000ms, 0000ms total)
+              JLINK_GetId() >0x108 TIF>Found SWD-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x108 TIF>Found SWD-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF>
+ >0x21 TIF> >0x0D TIF> >0x21 TIF>
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x00 (0000ms, 0000ms total)
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x00 (0000ms, 0000ms total)
+                returns 0x00000000 (0115ms, 0801ms total)
+T1240 001:292 JLINK_GetId() >0x108 TIF>Found SWD-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x108 TIF>Found SWD-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF>
+ >0x21 TIF> >0x0D TIF> >0x21 TIF>
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x00 (0000ms, 0000ms total)
+                returns 0x00000000 (0120ms, 0921ms total)
+T1240 001:441 JLINK_GetFirmwareString(...) (0000ms, 0921ms total)
+T1240 004:821 JLINK_Close() (0002ms, 0924ms total)
+T1240 004:821  (0002ms, 0924ms total)
+T1240 004:821 Closed (0002ms, 0924ms total)

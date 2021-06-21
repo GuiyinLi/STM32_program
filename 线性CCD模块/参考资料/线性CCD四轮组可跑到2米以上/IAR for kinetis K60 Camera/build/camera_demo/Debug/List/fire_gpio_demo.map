@@ -1,0 +1,654 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.30.1.53127/W32 for ARM              12/May/2016  09:56:25 #
+# Copyright 2007-2011 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis   #
+#                    K60 Camera\build\camera_demo\Debug\Exe\fire_gpio_demo.ou #
+#                    t                                                        #
+#    Map file     =  C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis   #
+#                    K60 Camera\build\camera_demo\Debug\List\fire_gpio_demo.m #
+#                    ap                                                       #
+#    Command line =  "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\ASCII.o"          #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\BL144002.o"       #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\FTM.o"            #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\LED.o"            #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\MMA.o"            #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\MPU.o"            #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\OV7725.o"         #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\PIT.o"            #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\SCCB.o"           #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\SCI.o"            #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\adc.o"            #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\alloc.o"          #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\arm_cm4.o"        #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\assert.o"         #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\calculation.o"    #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\control.o"        #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\crt0.o"           #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\delay.o"          #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\diskio.o"         #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\dma.o"            #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\e6a2.o"           #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\encoder.o"        #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\exti.o"           #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\ff.o"             #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\globle.o"         #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\gpio.o"           #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\i2c.o"            #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\io.o"             #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\isr.o"            #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\lptmr.o"          #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\main.o"           #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\mcg.o"            #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\motor.o"          #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\printf.o"         #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\queue.o"          #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\servo.o"          #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\start.o"          #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\startup.o"        #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\stdlib.o"         #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\sysinit.o"        #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\uart.o"           #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\uif.o"            #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\vectors.o"        #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Obj\wdog.o"           #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\src\LIB\CMSIS\iar_cortexM4l_math.a" -o        #
+#                    "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis  #
+#                    K60 Camera\build\camera_demo\Debug\Exe\fire_gpio_demo.ou #
+#                    t" --map "C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR     #
+#                    for kinetis K60 Camera\build\camera_demo\Debug\List\fire #
+#                    _gpio_demo.map" --config "C:\Users\Administrator\Desktop #
+#                    \¡ı“∂∑…2\IAR for kinetis K60                             #
+#                    Camera\build\camera_demo\..\config                       #
+#                    files\fire_ROM_K60N512.icf" --semihosting --entry        #
+#                    __iar_program_start --vfe                                #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"A2":  place at 0x00000410 { ro section .noinit };
+"P1":  place in [from 0x00000000 to 0x00040000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fff0410 to 0x20010000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A1":                                        0x410
+  .intvec              const    0x00000000   0x410  vectors.o [1]
+                              - 0x00000410   0x410
+
+"A2":                                         0x3c
+  .noinit              ro code  0x00000410    0x3c  crt0.o [1]
+                              - 0x0000044c    0x3c
+
+"P1":                                       0x40bc
+  .text                ro code  0x0000044c   0x7a0  calculation.o [1]
+  .text                ro code  0x00000bec    0xf4  gpio.o [1]
+  .text                ro code  0x00000ce0   0x346  adc.o [1]
+  .text                ro code  0x00001026    0x22  zero_init3.o [5]
+  .text                ro code  0x00001048    0x2c  I32ToDbl.o [4]
+  .text                ro code  0x00001074   0x1a2  DblMul.o [4]
+  .text                ro code  0x00001218    0x4c  DblToI32.o [4]
+  .text                ro code  0x00001264    0x32  I32ToFlt.o [4]
+  .text                ro code  0x00001298    0x84  FltAdd.o [4]
+  .text                ro code  0x0000131c    0x4e  FltToDbl.o [4]
+  .text                ro code  0x0000136c    0x90  DblToFlt.o [4]
+  .text                ro code  0x000013fc    0xd8  FltMul.o [4]
+  .text                ro code  0x000014d4    0xe6  FltSub.o [4]
+  .text                ro code  0x000015bc   0x246  DblDiv.o [4]
+  .text                ro code  0x00001804    0xe8  DblAdd.o [4]
+  .text                ro code  0x000018ec    0x44  FltToS32.o [4]
+  .text                ro code  0x00001930   0x3e4  FTM.o [1]
+  .text                ro code  0x00001d14    0x20  assert.o [1]
+  .text                ro code  0x00001d34   0x16c  DblSub.o [4]
+  .text                ro code  0x00001ea0    0x84  LED.o [1]
+  .text                ro code  0x00001f24   0x55c  printf.o [1]
+  .text                ro code  0x00002480    0x24  delay.o [1]
+  .text                ro code  0x000024a4    0x3e  stdlib.o [1]
+  .text                ro code  0x000024e4   0x520  start.o [1]
+  .text                ro code  0x00002a04    0x38  wdog.o [1]
+  .text                ro code  0x00002a3c    0xc0  startup.o [1]
+  .text                ro code  0x00002afc    0x5c  sysinit.o [1]
+  .text                ro code  0x00002b58   0x290  main.o [1]
+  .text                ro code  0x00002de8   0x15c  arm_cm4.o [1]
+  Veneer               ro code  0x00002f44     0x8  - Linker created -
+  .text                ro code  0x00002f4c   0x314  mcg.o [1]
+  .text                ro code  0x00003260   0x294  uart.o [1]
+  .text                ro code  0x000034f4    0x70  PIT.o [1]
+  .text                ro code  0x00003564   0x1dc  motor.o [1]
+  .text                ro code  0x00003740    0x40  e6a2.o [1]
+  .text                ro code  0x00003780    0x24  FltCmpGe.o [4]
+  .text                ro code  0x000037a4    0x6c  exti.o [1]
+  .text                ro code  0x00003810   0x42c  isr.o [1]
+  .text                ro code  0x00003c3c    0x1c  FltCmpEq.o [4]
+  .data_init                    0x00003c58    0x80  <Block>
+    Initializer bytes  ro data  0x00003c58    0x80  <for .data-1>
+  .rodata              const    0x00003cd8    0x5c  gpio.o [1]
+  .rodata              const    0x00003d34    0x58  FTM.o [1]
+  .rodata              const    0x00003d8c    0x58  adc.o [1]
+  CodeRelocate                  0x00003de4    0x50  <Block>
+    Initializer bytes  ro data  0x00003de4    0x50  <for CodeRelocateRam-1>
+  .rodata              const    0x00003e34    0x4c  assert.o [1]
+  .rodata              const    0x00003e80    0x48  start.o [1]
+  .rodata              const    0x00003ec8    0x40  arm_cm4.o [1]
+  .rodata              const    0x00003f08    0x40  start.o [1]
+  .rodata              const    0x00003f48    0x3c  arm_cm4.o [1]
+  .rodata              const    0x00003f84    0x3c  arm_cm4.o [1]
+  .rodata              const    0x00003fc0    0x38  arm_cm4.o [1]
+  .rodata              const    0x00003ff8    0x30  vectors.o [1]
+  .rodata              const    0x00004028    0x2c  start.o [1]
+  .text                ro code  0x00004054    0x2c  data_init3.o [5]
+  .rodata              const    0x00004080    0x28  start.o [1]
+  .rodata              const    0x000040a8    0x28  start.o [1]
+  .iar.init_table      const    0x000040d0    0x10  - Linker created -
+  .rodata              const    0x000040e0    0x20  start.o [1]
+  .rodata              const    0x00004100    0x20  start.o [1]
+  .rodata              const    0x00004120    0x20  start.o [1]
+  .rodata              const    0x00004140    0x20  start.o [1]
+  .rodata              const    0x00004160    0x20  start.o [1]
+  .rodata              const    0x00004180    0x1c  start.o [1]
+  .rodata              const    0x0000419c    0x1c  start.o [1]
+  .rodata              const    0x000041b8    0x1c  start.o [1]
+  .text                ro code  0x000041d4    0x1c  vectors.o [1]
+  .rodata              const    0x000041f0    0x18  start.o [1]
+  .rodata              const    0x00004208    0x18  start.o [1]
+  .rodata              const    0x00004220    0x18  start.o [1]
+  .rodata              const    0x00004238    0x18  start.o [1]
+  .rodata              const    0x00004250    0x18  start.o [1]
+  .rodata              const    0x00004268    0x18  start.o [1]
+  .rodata              const    0x00004280    0x18  start.o [1]
+  .rodata              const    0x00004298    0x18  start.o [1]
+  .text                ro code  0x000042b0    0x16  cmain.o [5]
+  .text                ro code  0x000042c6     0x4  low_level_init.o [3]
+  .text                ro code  0x000042ca     0x4  exit.o [3]
+  .text                ro code  0x000042d0     0xa  cexit.o [5]
+  .text                ro code  0x000042dc    0x14  exit.o [6]
+  .rodata              const    0x000042f0    0x14  isr.o [1]
+  .rodata              const    0x00004304    0x14  start.o [1]
+  .rodata              const    0x00004318    0x14  start.o [1]
+  .rodata              const    0x0000432c    0x14  start.o [1]
+  .rodata              const    0x00004340    0x14  start.o [1]
+  .rodata              const    0x00004354    0x14  start.o [1]
+  .rodata              const    0x00004368    0x14  start.o [1]
+  .rodata              const    0x0000437c    0x14  start.o [1]
+  .rodata              const    0x00004390    0x14  start.o [1]
+  .rodata              const    0x000043a4    0x10  start.o [1]
+  .rodata              const    0x000043b4    0x10  start.o [1]
+  .rodata              const    0x000043c4    0x10  start.o [1]
+  .rodata              const    0x000043d4    0x10  start.o [1]
+  .rodata              const    0x000043e4    0x10  start.o [1]
+  .rodata              const    0x000043f4    0x10  start.o [1]
+  .rodata              const    0x00004404    0x10  start.o [1]
+  .rodata              const    0x00004414    0x10  start.o [1]
+  .rodata              const    0x00004424    0x10  start.o [1]
+  .rodata              const    0x00004434    0x10  start.o [1]
+  .rodata              const    0x00004444    0x10  start.o [1]
+  .rodata              const    0x00004454    0x10  start.o [1]
+  .rodata              const    0x00004464    0x10  start.o [1]
+  .text                ro code  0x00004474    0x10  io.o [1]
+  .rodata              const    0x00004484     0xc  start.o [1]
+  .rodata              const    0x00004490     0xc  start.o [1]
+  .rodata              const    0x0000449c     0xc  start.o [1]
+  .rodata              const    0x000044a8     0xc  start.o [1]
+  .text                ro code  0x000044b4     0xc  cstartup_M.o [5]
+  .rodata              const    0x000044c0     0x8  isr.o [1]
+  .rodata              const    0x000044c8     0x8  start.o [1]
+  .rodata              const    0x000044d0     0x8  start.o [1]
+  .rodata              const    0x000044d8     0x8  start.o [1]
+  .rodata              const    0x000044e0     0x8  start.o [1]
+  .rodata              const    0x000044e8     0x8  start.o [1]
+  .rodata              const    0x000044f0     0x8  start.o [1]
+  .rodata              const    0x000044f8     0x8  start.o [1]
+  .rodata              const    0x00004500     0x8  start.o [1]
+  .rodata              const    0x00004508     0x0  bwt_init3c.o [5]
+                              - 0x00004508  0x40bc
+
+"P2", part 1 of 2:                            0xd0
+  .data                         0x1fff0410    0x80  <Block>
+    .data-1                     0x1fff0410    0x80  <Init block>
+      .data            inited   0x1fff0410     0xc  FTM.o [1]
+      .data            inited   0x1fff041c     0x8  adc.o [1]
+      .data            inited   0x1fff0424     0x4  calculation.o [1]
+      .data            inited   0x1fff0428     0x4  calculation.o [1]
+      .data            inited   0x1fff042c     0x1  calculation.o [1]
+      .data            inited   0x1fff0430     0x4  calculation.o [1]
+      .data            inited   0x1fff0434     0x4  calculation.o [1]
+      .data            inited   0x1fff0438     0x4  calculation.o [1]
+      .data            inited   0x1fff043c     0x4  calculation.o [1]
+      .data            inited   0x1fff0440     0x4  calculation.o [1]
+      .data            inited   0x1fff0444    0x14  gpio.o [1]
+      .data            inited   0x1fff0458    0x14  gpio.o [1]
+      .data            inited   0x1fff046c     0x1  isr.o [1]
+      .data            inited   0x1fff0470     0x8  mcg.o [1]
+      .data            inited   0x1fff0478    0x18  uart.o [1]
+  CodeRelocateRam               0x1fff0490    0x50  <Block>
+    CodeRelocateRam-1           0x1fff0490    0x50  <Init block>
+      .textrw          inited   0x1fff0490    0x50  mcg.o [1]
+                              - 0x1fff04e0    0xd0
+
+"P2", part 2 of 2:                          0x1afe
+  .bss                          0x1fff04e0  0x1afe  <Block>
+    .bss               zero     0x1fff04e0    0x10  adc.o [1]
+    .bss               zero     0x1fff04f0     0x4  calculation.o [1]
+    .bss               zero     0x1fff04f4     0x4  calculation.o [1]
+    .bss               zero     0x1fff04f8     0x4  calculation.o [1]
+    .bss               zero     0x1fff04fc     0x4  calculation.o [1]
+    .bss               zero     0x1fff0500     0x4  calculation.o [1]
+    .bss               zero     0x1fff0504    0x50  calculation.o [1]
+    .bss               zero     0x1fff0554     0x4  calculation.o [1]
+    .bss               zero     0x1fff0558     0x4  calculation.o [1]
+    .bss               zero     0x1fff055c     0x4  calculation.o [1]
+    .bss               zero     0x1fff0560     0x4  isr.o [1]
+    .bss               zero     0x1fff0564     0x4  isr.o [1]
+    .bss               zero     0x1fff0568     0x4  isr.o [1]
+    .bss               zero     0x1fff056c  0x1900  isr.o [1]
+    .bss               zero     0x1fff1e6c     0x4  isr.o [1]
+    .bss               zero     0x1fff1e70    0x14  isr.o [1]
+    .bss               zero     0x1fff1e84    0x80  main.o [1]
+    .bss               zero     0x1fff1f04    0x80  main.o [1]
+    .bss               zero     0x1fff1f84     0x4  main.o [1]
+    .bss               zero     0x1fff1f88     0x4  main.o [1]
+    .bss               zero     0x1fff1f8c     0x4  main.o [1]
+    .bss               zero     0x1fff1f90     0x4  main.o [1]
+    .bss               zero     0x1fff1f94     0x4  main.o [1]
+    .bss               zero     0x1fff1f98     0x4  main.o [1]
+    .bss               zero     0x1fff1f9c    0x10  main.o [1]
+    .bss               zero     0x1fff1fac     0x4  sysinit.o [1]
+    .bss               zero     0x1fff1fb0     0x4  sysinit.o [1]
+    .bss               zero     0x1fff1fb4     0x4  sysinit.o [1]
+    .bss               zero     0x1fff1fb8     0x2  motor.o [1]
+    .bss               zero     0x1fff1fba     0x2  motor.o [1]
+    .bss               zero     0x1fff1fbc     0x2  motor.o [1]
+    .bss               zero     0x1fff1fbe     0x2  motor.o [1]
+    .bss               zero     0x1fff1fc0     0x2  motor.o [1]
+    .bss               zero     0x1fff1fc2     0x2  motor.o [1]
+    .bss               zero     0x1fff1fc4     0x2  motor.o [1]
+    .bss               zero     0x1fff1fc6     0x2  motor.o [1]
+    .bss               zero     0x1fff1fc8     0x2  motor.o [1]
+    .bss               zero     0x1fff1fca     0x2  motor.o [1]
+    .bss               zero     0x1fff1fcc     0x2  motor.o [1]
+    .bss               zero     0x1fff1fce     0x2  motor.o [1]
+    .bss               zero     0x1fff1fd0     0x1  isr.o [1]
+    .bss               zero     0x1fff1fd1     0x1  isr.o [1]
+    .bss               zero     0x1fff1fd2     0x1  isr.o [1]
+    .bss               zero     0x1fff1fd3     0x1  isr.o [1]
+    .bss               zero     0x1fff1fd4     0x1  isr.o [1]
+    .bss               zero     0x1fff1fd5     0x1  isr.o [1]
+    .bss               zero     0x1fff1fd6     0x1  isr.o [1]
+    .bss               zero     0x1fff1fd7     0x1  isr.o [1]
+    .bss               zero     0x1fff1fd8     0x1  isr.o [1]
+    .bss               zero     0x1fff1fd9     0x1  isr.o [1]
+    .bss               zero     0x1fff1fda     0x1  isr.o [1]
+    .bss               zero     0x1fff1fdb     0x1  main.o [1]
+    .bss               zero     0x1fff1fdc     0x1  main.o [1]
+    .bss               zero     0x1fff1fdd     0x1  main.o [1]
+                              - 0x1fff1fde  0x1afe
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1afe:
+          0x1fff04e0  0x1afe
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  rw code  ro data  rw data
+    ------            -------  -------  -------  -------
+C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis K60 Camera\build\camera_demo\Debug\Obj: [1]
+    FTM.o                 996               100       12
+    LED.o                 132
+    PIT.o                 112
+    adc.o                 838                96       24
+    arm_cm4.o             348               240
+    assert.o               32                76
+    calculation.o       1 952                32      141
+    crt0.o                 60
+    delay.o                36
+    e6a2.o                 64
+    exti.o                108
+    gpio.o                244               132       40
+    io.o                   16
+    isr.o               1 068                29    6 448
+    main.o                656                        299
+    mcg.o                 788       80       91        8
+    motor.o               476                         24
+    printf.o            1 372
+    start.o             1 312             1 176
+    startup.o             192
+    stdlib.o               62
+    sysinit.o              92                         12
+    uart.o                660                24       24
+    vectors.o              28             1 088
+    wdog.o                 56
+    ----------------------------------------------------
+    Total:             11 700       80    3 084    7 032
+
+command line: [2]
+    ----------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                  4
+    low_level_init.o        4
+    ----------------------------------------------------
+    Total:                  8
+
+m7M_tl.a: [4]
+    DblAdd.o              232
+    DblDiv.o              582
+    DblMul.o              418
+    DblSub.o              364
+    DblToFlt.o            144
+    DblToI32.o             76
+    FltAdd.o              132
+    FltCmpEq.o             28
+    FltCmpGe.o             36
+    FltMul.o              216
+    FltSub.o              230
+    FltToDbl.o             78
+    FltToS32.o             68
+    I32ToDbl.o             44
+    I32ToFlt.o             50
+    ----------------------------------------------------
+    Total:              2 698
+
+rt7M_tl.a: [5]
+    bwt_init3c.o
+    cexit.o                10
+    cmain.o                22
+    cstartup_M.o           12
+    data_init3.o           44
+    zero_init3.o           34
+    ----------------------------------------------------
+    Total:                122
+
+shb_l.a: [6]
+    exit.o                 20
+    ----------------------------------------------------
+    Total:                 20
+
+    Gaps                   16                          6
+    Linker created          8                16
+--------------------------------------------------------
+    Grand Total:       14 572       80    3 100    7 038
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.bss$$Base              0x1fff04e0           --   Gb  - Linker created -
+.bss$$Limit             0x1fff1fde           --   Gb  - Linker created -
+.data$$Base             0x1fff0410           --   Gb  - Linker created -
+.data$$Limit            0x1fff0490           --   Gb  - Linker created -
+.data_init$$Base        0x00003c58           --   Gb  - Linker created -
+.data_init$$Limit       0x00003cd8           --   Gb  - Linker created -
+?main                   0x000042b1          Code  Gb  cmain.o [5]
+ADCx                    0x1fff041c     0x8  Data  Gb  adc.o [1]
+ASSERT_FAILED_STR       0x00003e34    0x4c  Data  Gb  assert.o [1]
+Black_L                 0x1fff04f4     0x4  Data  Gb  calculation.o [1]
+Black_R                 0x1fff04f8     0x4  Data  Gb  calculation.o [1]
+CCD1_init1              0x0000044d    0x24  Code  Gb  calculation.o [1]
+CCD2_init1              0x00000471    0x24  Code  Gb  calculation.o [1]
+CCD_Thre                0x1fff0438     0x4  Data  Gb  calculation.o [1]
+CalculateIntegrationTime
+                        0x00000767    0xca  Code  Gb  calculation.o [1]
+Camera_Flag             0x1fff1fdc     0x1  Data  Gb  main.o [1]
+CodeRelocate$$Base      0x00003de4           --   Gb  - Linker created -
+CodeRelocate$$Limit     0x00003e34           --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff0490           --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff04e0           --   Gb  - Linker created -
+DIR_CONTROL_D           0x1fff0428     0x4  Data  Gb  calculation.o [1]
+DIR_CONTROL_P           0x1fff0424     0x4  Data  Gb  calculation.o [1]
+DMA_CH0_Handler         0x000039c5    0x22  Code  Gb  isr.o [1]
+DMA_CH4_Handler         0x00003811     0x2  Code  Gb  isr.o [1]
+Direction_M_New         0x1fff1f94     0x4  Data  Gb  main.o [1]
+Direction_M_Old         0x1fff1f90     0x4  Data  Gb  main.o [1]
+FTM_PWM_Duty            0x00001c55    0x78  Code  Gb  FTM.o [1]
+FTM_PWM_init            0x00001931   0x324  Code  Gb  FTM.o [1]
+FTMx                    0x1fff0410     0xc  Data  Gb  FTM.o [1]
+GPIOx                   0x1fff0444    0x14  Data  Gb  gpio.o [1]
+ImageCapture            0x000005d3   0x194  Code  Gb  calculation.o [1]
+IntegrationTime         0x1fff042c     0x1  Data  Gb  calculation.o [1]
+LED_init                0x00001ea1    0x1c  Code  Gb  LED.o [1]
+Master_Adc_Config       0x1fff04e0    0x10  Data  Gb  adc.o [1]
+OutData                 0x1fff1f9c    0x10  Data  Gb  main.o [1]
+PIT0_IRQHandler         0x000038f1    0xd4  Code  Gb  isr.o [1]
+PIT1_IRQHandler         0x000039e7    0x5c  Code  Gb  isr.o [1]
+PORTA_IRQHandler        0x00003813    0x66  Code  Gb  isr.o [1]
+PORTB_IRQHandler        0x00003879    0x78  Code  Gb  isr.o [1]
+PORTX                   0x1fff0458    0x14  Data  Gb  gpio.o [1]
+PWM                     0x1fff1fca     0x2  Data  Gb  motor.o [1]
+Pix_Data                0x1fff056c  0x1900  Data  Gb  isr.o [1]
+Pixel                   0x1fff1e84    0x80  Data  Gb  main.o [1]
+Pixel2                  0x1fff1f04    0x80  Data  Gb  main.o [1]
+PixelAverage            0x00000831    0x28  Code  Gb  calculation.o [1]
+Real_L_pulse            0x1fff1f84     0x4  Data  Gb  main.o [1]
+Real_R_pulse            0x1fff1f88     0x4  Data  Gb  main.o [1]
+Region$$Table$$Base     0x000040d0           --   Gb  - Linker created -
+Region$$Table$$Limit    0x000040e0           --   Gb  - Linker created -
+Reset_Handler           0x00000411          Code  Gb  crt0.o [1]
+Rx_Buff                 0x1fff1e70    0x14  Data  Gb  isr.o [1]
+Rx_Count                0x1fff1fda     0x1  Data  Gb  isr.o [1]
+SamplingDelay           0x00000859    0x24  Code  Gb  calculation.o [1]
+StartIntegration        0x00000495   0x13e  Code  Gb  calculation.o [1]
+TIME0flag_d1ms          0x1fff1fd2     0x1  Data  Gb  isr.o [1]
+TIME0flag_d2ms          0x1fff1fd3     0x1  Data  Gb  isr.o [1]
+TIME0flag_d3ms          0x1fff1fd4     0x1  Data  Gb  isr.o [1]
+TIME0flag_d4ms          0x1fff1fd5     0x1  Data  Gb  isr.o [1]
+TIME0flag_d5ms          0x1fff1fd6     0x1  Data  Gb  isr.o [1]
+TIME1flag_1ms           0x1fff1fd1     0x1  Data  Gb  isr.o [1]
+TIME1flag_20ms          0x1fff1fd0     0x1  Data  Gb  isr.o [1]
+UARTx                   0x1fff0478    0x18  Data  Gb  uart.o [1]
+USART2_IRQHandler       0x00003a43   0x14e  Code  Gb  isr.o [1]
+VS                      0x1fff1fc0     0x2  Data  Gb  motor.o [1]
+V_Cnt                   0x1fff1fd7     0x1  Data  Gb  isr.o [1]
+Vnow                    0x1fff1fc8     0x2  Data  Gb  motor.o [1]
+Vset                    0x1fff1fc2     0x2  Data  Gb  motor.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2000fff8           --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000           --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000           --   Gb  command line/config [2]
+__aeabi_cfcmpeq         0x00003c3d          Code  Gb  FltCmpEq.o [4]
+__aeabi_cfrcmple        0x00003781          Code  Gb  FltCmpGe.o [4]
+__aeabi_d2f             0x0000136d          Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x00001219          Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x00001805          Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x000015bd          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x00001075          Code  Gb  DblMul.o [4]
+__aeabi_f2d             0x0000131d          Code  Gb  FltToDbl.o [4]
+__aeabi_f2iz            0x000018ed          Code  Gb  FltToS32.o [4]
+__aeabi_fadd            0x00001299          Code  Gb  FltAdd.o [4]
+__aeabi_fmul            0x000013fd          Code  Gb  FltMul.o [4]
+__aeabi_fsub            0x000014d5          Code  Gb  FltSub.o [4]
+__aeabi_i2d             0x00001049          Code  Gb  I32ToDbl.o [4]
+__aeabi_i2f             0x00001265          Code  Gb  I32ToFlt.o [4]
+__aeabi_ui2f            0x00001279          Code  Gb  I32ToFlt.o [4]
+__cmain                 0x000042b1          Code  Gb  cmain.o [5]
+__code_start__ {Abs}    0x00000410           --   Gb  command line/config [2]
+__exit                  0x000042dd    0x14  Code  Gb  exit.o [6]
+__iar_SB                0x00004508          Data  Gb  bwt_init3c.o [5]
+__iar_d2uiz             0x00001245          Code  Gb  DblToI32.o [4]
+__iar_dadd              0x00001819          Code  Gb  DblAdd.o [4]
+__iar_data_init3        0x00004055    0x2c  Code  Gb  data_init3.o [5]
+__iar_dsub              0x00001d35          Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x00001d47          Code  Gb  DblSub.o [4]
+__iar_fadd              0x000012a9          Code  Gb  FltAdd.o [4]
+__iar_fsub              0x000014e5          Code  Gb  FltSub.o [4]
+__iar_fsubStart         0x000014f5          Code  Gb  FltSub.o [4]
+__iar_program_start     0x000044b5          Code  Gb  cstartup_M.o [5]
+__iar_ui2d              0x0000105d          Code  Gb  I32ToDbl.o [4]
+__iar_ui2f              0x0000127d          Code  Gb  I32ToFlt.o [4]
+__iar_zero_init3        0x00001027    0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x000042c7     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000   0x410  Data  Gb  vectors.o [1]
+_call_main              0x000042bd          Code  Gb  cmain.o [5]
+_exit                   0x000042d1          Code  Gb  cexit.o [5]
+_main                   0x000042c3          Code  Gb  cmain.o [5]
+ad_once                 0x00000f1b    0x7e  Code  Gb  adc.o [1]
+adc_config_alt          0x00001001    0x26  Code  Lc  adc.o [1]
+adc_init                0x00000ce1   0x23a  Code  Gb  adc.o [1]
+adc_start               0x00000f99    0x48  Code  Gb  adc.o [1]
+assert_failed           0x00001d15    0x20  Code  Gb  assert.o [1]
+bus_clk_khz             0x1fff1fb4     0x4  Data  Gb  sysinit.o [1]
+ccd_count               0x1fff1fdb     0x1  Data  Gb  main.o [1]
+ccd_pro                 0x0000087d   0x2bc  Code  Gb  calculation.o [1]
+common_startup          0x00002a3d    0xc0  Code  Gb  startup.o [1]
+core_clk_khz            0x1fff1fac     0x4  Data  Gb  sysinit.o [1]
+core_clk_mhz            0x1fff1fb0     0x4  Data  Gb  sysinit.o [1]
+countl                  0x1fff0564     0x4  Data  Gb  isr.o [1]
+countr                  0x1fff0568     0x4  Data  Gb  isr.o [1]
+cpu_identify            0x00002613   0x20a  Code  Gb  start.o [1]
+default_isr             0x000041d5    0x1c  Code  Gb  vectors.o [1]
+delayms                 0x00002481    0x1e  Code  Gb  delay.o [1]
+dier_count_period       0x1fff1f98     0x4  Data  Gb  main.o [1]
+disable_irq             0x00002e83    0x5e  Code  Gb  arm_cm4.o [1]
+enable_irq              0x00002def    0x94  Code  Gb  arm_cm4.o [1]
+err_1                   0x1fff1fc4     0x2  Data  Gb  motor.o [1]
+err_2                   0x1fff1fc6     0x2  Data  Gb  motor.o [1]
+error                   0x1fff04fc     0x4  Data  Gb  calculation.o [1]
+error_last              0x1fff0500     0x4  Data  Gb  calculation.o [1]
+error_now               0x1fff0558     0x4  Data  Gb  calculation.o [1]
+error_s                 0x1fff0504    0x50  Data  Gb  calculation.o [1]
+error_sum               0x1fff0554     0x4  Data  Gb  calculation.o [1]
+exit                    0x000042cb     0x4  Code  Gb  exit.o [3]
+exti_init               0x000037a5    0x6c  Code  Gb  exti.o [1]
+flash_identify          0x0000281d    0xbe  Code  Gb  start.o [1]
+g_fSpeedControlOut      0x1fff1f8c     0x4  Data  Gb  main.o [1]
+gpio_init               0x00000bed    0xb8  Code  Gb  gpio.o [1]
+gpio_turn               0x00000ca5    0x30  Code  Gb  gpio.o [1]
+init_E6A2               0x00003741    0x40  Code  Gb  e6a2.o [1]
+init_motor              0x00003565    0x66  Code  Gb  motor.o [1]
+led                     0x00001ebd    0x1e  Code  Gb  LED.o [1]
+main                    0x00002b59   0x230  Code  Gb  main.o [1]
+mcg_div                 0x1fff0470     0x8  Data  Gb  mcg.o [1]
+memset                  0x000024c5    0x1e  Code  Gb  stdlib.o [1]
+near_Black_L            0x1fff055c     0x4  Data  Gb  calculation.o [1]
+near_Black_R            0x1fff043c     0x4  Data  Gb  calculation.o [1]
+near_Track_central      0x1fff0430     0x4  Data  Gb  calculation.o [1]
+near_track_cen_last     0x1fff0434     0x4  Data  Gb  calculation.o [1]
+out_char                0x00004475    0x10  Code  Gb  io.o [1]
+pit_init                0x000034f5    0x62  Code  Gb  PIT.o [1]
+pll_init                0x00002f4d   0x314  Code  Gb  mcg.o [1]
+printf                  0x00002457    0x26  Code  Gb  printf.o [1]
+printk                  0x0000204d   0x40a  Code  Gb  printf.o [1]
+printk_mknumstr         0x00001f57    0xaa  Code  Lc  printf.o [1]
+printk_pad_space        0x00002027    0x26  Code  Lc  printf.o [1]
+printk_pad_zero         0x00002001    0x26  Code  Lc  printf.o [1]
+printk_putc             0x00001f25    0x32  Code  Lc  printf.o [1]
+pwml                    0x1fff1fcc     0x2  Data  Gb  motor.o [1]
+pwmr                    0x1fff1fce     0x2  Data  Gb  motor.o [1]
+send_data_cnt           0x1fff1fdd     0x1  Data  Gb  main.o [1]
+setSpeedPWM             0x000035cb    0x54  Code  Gb  motor.o [1]
+set_irq_priority        0x00002ee1    0x2a  Code  Gb  arm_cm4.o [1]
+set_sys_dividers        0x1fff0491    0x50  Code  Gb  mcg.o [1]
+speedCorr_PID           0x0000361f    0xf0  Code  Gb  motor.o [1]
+start                   0x000024e5   0x12e  Code  Gb  start.o [1]
+steering_control        0x00000b39    0x46  Code  Gb  calculation.o [1]
+strlen                  0x000024a5    0x20  Code  Gb  stdlib.o [1]
+sysinit                 0x00002afd    0x48  Code  Gb  sysinit.o [1]
+track_width             0x1fff0440     0x4  Data  Gb  calculation.o [1]
+uart_getchar            0x0000340f    0x1a  Code  Gb  uart.o [1]
+uart_init               0x00003261   0x1ae  Code  Gb  uart.o [1]
+uart_irq_DIS            0x00003487    0x28  Code  Gb  uart.o [1]
+uart_irq_EN             0x0000345f    0x28  Code  Gb  uart.o [1]
+uart_putchar            0x00003429    0x1a  Code  Gb  uart.o [1]
+uart_sendStr            0x00003443    0x1c  Code  Gb  uart.o [1]
+vlnow                   0x1fff1fbc     0x2  Data  Gb  motor.o [1]
+vlset                   0x1fff1fb8     0x2  Data  Gb  motor.o [1]
+vrnow                   0x1fff1fbe     0x2  Data  Gb  motor.o [1]
+vrset                   0x1fff1fba     0x2  Data  Gb  motor.o [1]
+water_lights            0x00001edb    0x44  Code  Gb  LED.o [1]
+wdog_disable            0x00002a05    0x16  Code  Gb  wdog.o [1]
+wdog_unlock             0x00002a1d    0x16  Code  Gb  wdog.o [1]
+write_vtor              0x00002de9     0x6  Code  Gb  arm_cm4.o [1]
+zhijiao_2ms_nb          0x1fff04f0     0x4  Data  Gb  calculation.o [1]
+zhijiao_count           0x1fff1e6c     0x4  Data  Gb  isr.o [1]
+zhili_flag              0x1fff046c     0x1  Data  Gb  isr.o [1]
+zhilitime_count         0x1fff0560     0x4  Data  Gb  isr.o [1]
+
+
+[1] = C:\Users\Administrator\Desktop\¡ı“∂∑…2\IAR for kinetis K60 Camera\build\camera_demo\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  14 572 bytes of readonly  code memory
+      80 bytes of readwrite code memory
+   3 100 bytes of readonly  data memory
+   7 038 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

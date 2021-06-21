@@ -1,0 +1,786 @@
+Dependencies for Project 'TEST', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x5C5D6B84)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (system_stm32f10x.h)(0x4D783CAA)
+I (stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\FWLIB\KEY\key.h)(0x5C46FB0A)
+I (..\SYSTEM\delay\delay.h)(0x583BAA09)
+I (..\FWLIB\LED\led.h)(0x5C57007E)
+I (..\TASK\start_task.h)(0x5C5D6B06)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+F (.\stm32f10x_it.c)(0x5C57AACA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
+I (stm32f10x_it.h)(0x4D99A59E)
+I (stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (system_stm32f10x.h)(0x4D783CAA)
+I (stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+F (.\system_stm32f10x.c)(0x4D783CB0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
+I (stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (system_stm32f10x.h)(0x4D783CAA)
+I (stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+F (..\SYSTEM\delay\delay.c)(0x5C57B394)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x583BAA09)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+F (..\SYSTEM\sys\sys.c)(0x5C57AEA3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+F (..\SYSTEM\usart\usart.c)(0x5C5D494D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\TASK\QUEUE_TASK\queue_task.h)(0x5C5BED80)
+I (..\TASK\start_task.h)(0x5C5D6B06)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\queue.h)(0x5B92F2C8)
+I (E:\Keil5 MDK\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\FWLIB\LED\led.h)(0x5C57007E)
+I (..\TASK\SEMAPHORE\semaphore.h)(0x5C5CEF80)
+I (..\FreeRTOS\include\semphr.h)(0x5B92F2C8)
+I (..\TASK\TASKNOTIFY_TASK\tasknotify_task.h)(0x5C5D6B06)
+I (E:\Keil5 MDK\ARM\ARMCC\include\limits.h)(0x599EDB3A)
+F (..\CORE\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+F (..\CORE\startup_stm32f10x_md.s)(0x4D783CD2)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 526" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o ..\obj\startup_stm32f10x_md.o --depend ..\obj\startup_stm32f10x_md.d)
+F (..\STM3210X\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+F (..\STM3210X\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+F (..\STM3210X\src\stm32f10x_gpio.c)(0x5A0FD82C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+F (..\STM3210X\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+F (..\STM3210X\src\stm32f10x_tim.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+F (..\FWLIB\KEY\key.c)(0x5C53F6B2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\FWLIB\KEY\key.h)(0x5C46FB0A)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\SYSTEM\delay\delay.h)(0x583BAA09)
+F (..\FWLIB\LED\led.c)(0x5C57018F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\FWLIB\LED\led.h)(0x5C57007E)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+F (..\FWLIB\TIMER\timer.c)(0x5C5BA582)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWLIB\LED\led.h)(0x5C57007E)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+F (..\TASK\LED_TASK\led_task.c)(0x5C5B9E7F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\led_task.o --omf_browse ..\obj\led_task.crf --depend ..\obj\led_task.d)
+I (..\TASK\LED_TASK\led_task.h)(0x5C5700E0)
+I (..\TASK\start_task.h)(0x5C5D6B06)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (..\FWLIB\LED\led.h)(0x5C57007E)
+I (..\SYSTEM\delay\delay.h)(0x583BAA09)
+F (..\TASK\task.c)(0x5C5D4755)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\task.o --omf_browse ..\obj\task.crf --depend ..\obj\task.d)
+I (..\TASK\start_task.h)(0x5C5D6B06)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (..\TASK\LED_TASK\led_task.h)(0x5C5700E0)
+I (..\SYSTEM\delay\delay.h)(0x583BAA09)
+I (..\FWLIB\LED\led.h)(0x5C57007E)
+I (..\TASK\LIST_TASK\list_task.h)(0x5C5ADA2C)
+I (..\FWLIB\KEY\key.h)(0x5C46FB0A)
+I (..\TASK\API\api.h)(0x5C5B89AF)
+I (..\TASK\QUEUE_TASK\queue_task.h)(0x5C5BED80)
+I (..\FreeRTOS\include\queue.h)(0x5B92F2C8)
+I (..\TASK\SEMAPHORE\semaphore.h)(0x5C5CEF80)
+I (..\FreeRTOS\include\semphr.h)(0x5B92F2C8)
+I (..\TASK\TIMER_TASK\timer_task.h)(0x5C5CFA85)
+I (..\FreeRTOS\include\timers.h)(0x5B92F2C9)
+I (..\TASK\EVENT_TASK\event_task.h)(0x5C5D0816)
+I (..\FreeRTOS\include\event_groups.h)(0x5B92F2C8)
+I (..\TASK\HEAP_TASK\heap_task.h)(0x5C5D3B0D)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\TASK\TASKNOTIFY_TASK\tasknotify_task.h)(0x5C5D6B06)
+I (E:\Keil5 MDK\ARM\ARMCC\include\limits.h)(0x599EDB3A)
+F (..\TASK\LIST_TASK\list_task.c)(0x5C5AED3C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\list_task.o --omf_browse ..\obj\list_task.crf --depend ..\obj\list_task.d)
+I (..\TASK\LIST_TASK\list_task.h)(0x5C5ADA2C)
+I (..\TASK\start_task.h)(0x5C5D6B06)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (..\FWLIB\KEY\key.h)(0x5C46FB0A)
+I (..\SYSTEM\delay\delay.h)(0x583BAA09)
+I (..\FWLIB\LED\led.h)(0x5C57007E)
+F (..\TASK\QUEUE_TASK\queue_task.c)(0x5C5BFD53)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\queue_task.o --omf_browse ..\obj\queue_task.crf --depend ..\obj\queue_task.d)
+I (..\TASK\QUEUE_TASK\queue_task.h)(0x5C5BED80)
+I (..\TASK\start_task.h)(0x5C5D6B06)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\queue.h)(0x5B92F2C8)
+I (..\FWLIB\LED\led.h)(0x5C57007E)
+I (..\FWLIB\KEY\key.h)(0x5C46FB0A)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+F (..\TASK\API\api.c)(0x5C5BAA16)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\api.o --omf_browse ..\obj\api.crf --depend ..\obj\api.d)
+I (..\TASK\API\api.h)(0x5C5B89AF)
+I (..\TASK\start_task.h)(0x5C5D6B06)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (..\FWLIB\KEY\key.h)(0x5C46FB0A)
+I (..\SYSTEM\delay\delay.h)(0x583BAA09)
+I (E:\Keil5 MDK\ARM\ARMCC\include\string.h)(0x599EDB3C)
+F (..\TASK\SEMAPHORE\semaphore.c)(0x5C5CF839)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\semaphore.o --omf_browse ..\obj\semaphore.crf --depend ..\obj\semaphore.d)
+I (..\TASK\SEMAPHORE\semaphore.h)(0x5C5CEF80)
+I (..\TASK\start_task.h)(0x5C5D6B06)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\semphr.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\queue.h)(0x5B92F2C8)
+I (..\FWLIB\LED\led.h)(0x5C57007E)
+I (E:\Keil5 MDK\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\FWLIB\KEY\key.h)(0x5C46FB0A)
+I (..\SYSTEM\delay\delay.h)(0x583BAA09)
+F (..\TASK\TIMER_TASK\timer_task.c)(0x5C5CFF27)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\timer_task.o --omf_browse ..\obj\timer_task.crf --depend ..\obj\timer_task.d)
+I (..\TASK\TIMER_TASK\timer_task.h)(0x5C5CFA85)
+I (..\TASK\start_task.h)(0x5C5D6B06)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\timers.h)(0x5B92F2C9)
+I (..\FWLIB\KEY\key.h)(0x5C46FB0A)
+I (..\FWLIB\LED\led.h)(0x5C57007E)
+F (..\TASK\EVENT_TASK\event_task.c)(0x5C5D09DB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\event_task.o --omf_browse ..\obj\event_task.crf --depend ..\obj\event_task.d)
+I (..\TASK\EVENT_TASK\event_task.h)(0x5C5D0816)
+I (..\TASK\start_task.h)(0x5C5D6B06)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\event_groups.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\timers.h)(0x5B92F2C9)
+I (..\FWLIB\LED\led.h)(0x5C57007E)
+I (..\FWLIB\KEY\key.h)(0x5C46FB0A)
+F (..\TASK\HEAP_TASK\heap_task.c)(0x5C5D3E54)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\heap_task.o --omf_browse ..\obj\heap_task.crf --depend ..\obj\heap_task.d)
+I (..\TASK\HEAP_TASK\heap_task.h)(0x5C5D3B0D)
+I (..\TASK\start_task.h)(0x5C5D6B06)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\FWLIB\KEY\key.h)(0x5C46FB0A)
+F (..\TASK\TASKNOTIFY_TASK\tasknotify_task.c)(0x5C5D6B3D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\tasknotify_task.o --omf_browse ..\obj\tasknotify_task.crf --depend ..\obj\tasknotify_task.d)
+I (..\TASK\TASKNOTIFY_TASK\tasknotify_task.h)(0x5C5D6B06)
+I (..\TASK\start_task.h)(0x5C5D6B06)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (E:\Keil5 MDK\ARM\ARMCC\include\limits.h)(0x599EDB3A)
+I (E:\Keil5 MDK\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\TASK\SEMAPHORE\semaphore.h)(0x5C5CEF80)
+I (..\FreeRTOS\include\semphr.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\queue.h)(0x5B92F2C8)
+I (..\FWLIB\LED\led.h)(0x5C57007E)
+I (..\FWLIB\KEY\key.h)(0x5C46FB0A)
+I (..\TASK\EVENT_TASK\event_task.h)(0x5C5D0816)
+I (..\FreeRTOS\include\event_groups.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\timers.h)(0x5B92F2C9)
+F (..\FreeRTOS\croutine.c)(0x5B92F2CA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\croutine.o --omf_browse ..\obj\croutine.crf --depend ..\obj\croutine.d)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\croutine.h)(0x5B92F2C8)
+F (..\FreeRTOS\event_groups.c)(0x5B92F2CA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\event_groups.o --omf_browse ..\obj\event_groups.crf --depend ..\obj\event_groups.d)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\timers.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\event_groups.h)(0x5B92F2C8)
+F (..\FreeRTOS\list.c)(0x5B92F2CA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\list.o --omf_browse ..\obj\list.crf --depend ..\obj\list.d)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+F (..\FreeRTOS\queue.c)(0x5B92F2CA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\queue.o --omf_browse ..\obj\queue.crf --depend ..\obj\queue.d)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\queue.h)(0x5B92F2C8)
+F (..\FreeRTOS\stream_buffer.c)(0x5B92F2CA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stream_buffer.o --omf_browse ..\obj\stream_buffer.crf --depend ..\obj\stream_buffer.d)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (E:\Keil5 MDK\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\stream_buffer.h)(0x5B92F2C8)
+F (..\FreeRTOS\tasks.c)(0x5B92F2CA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\tasks.o --omf_browse ..\obj\tasks.crf --depend ..\obj\tasks.d)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\timers.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\stack_macros.h)(0x5B92F2C8)
+F (..\FreeRTOS\timers.c)(0x5B92F2CA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\timers.o --omf_browse ..\obj\timers.crf --depend ..\obj\timers.d)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\queue.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\timers.h)(0x5B92F2C9)
+F (..\FreeRTOS\portable\MemMang\heap_4.c)(0x5B92F2CA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\heap_4.o --omf_browse ..\obj\heap_4.crf --depend ..\obj\heap_4.d)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)
+F (..\FreeRTOS\portable\RVDS\ARM_CM3\port.c)(0x5B92F2CA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\CORE -I ..\STM3210X\inc -I ..\SYSTEM\usart -I ..\FWLIB\KEY -I ..\SYSTEM\usart -I ..\FWLIB\LED -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\FreeRTOS -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK -I ..\TASK\LED_TASK -I ..\FreeRTOS\include -I ..\TASK\LIST_TASK -I ..\FWLIB\KEY -I ..\TASK\QUEUE_TASK -I ..\FWLIB\TIMER -I ..\TASK\API -I ..\TASK\QUEUE_TASK -I ..\TASK\SEMAPHORE -I ..\TASK\TIMER_TASK -I ..\TASK\EVENT_TASK -I ..\TASK\HEAP_TASK -I ..\TASK\TASKNOTIFY_TASK-I.\RTE\_Target_1-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"E:\Keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\port.o --omf_browse ..\obj\port.crf --depend ..\obj\port.d)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5C56FB8C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x5C5D6B5D)
+I (..\SYSTEM\sys\sys.h)(0x583BA68A)
+I (..\USER\stm32f10x.h)(0x5A10102E)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x589D278C)
+I (..\STM3210X\inc\stm32f10x_gpio.h)(0x5A101DC2)
+I (..\STM3210X\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM3210X\inc\stm32f10x_usart.h)(0x5A0FE87C)
+I (..\STM3210X\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x5C5BED80)
+I (E:\Keil5 MDK\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\FWLIB\TIMER\timer.h)(0x5C5BA4FB)
+I (..\STM3210X\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FreeRTOS\include\projdefs.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\portable.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5B92F2C8)
+I (..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5B92F2C9)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5B92F2C8)
+I (..\FreeRTOS\include\task.h)(0x5B92F9BF)
+I (..\FreeRTOS\include\list.h)(0x5B92F2C8)

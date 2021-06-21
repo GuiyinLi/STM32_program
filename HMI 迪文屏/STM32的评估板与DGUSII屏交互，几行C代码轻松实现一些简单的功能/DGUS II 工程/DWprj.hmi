@@ -1,0 +1,12 @@
+[INIT]
+PICFIX=1
+VARCount=64
+Version=0
+SCREENDSIZE=480X854
+SPADDRESS=5000
+[IMG]
+0=0首页.bmp
+01=01音乐播放.bmp
+02=02屏幕开关.bmp
+03=03LED展示.bmp
+04=04温度调节.bmp

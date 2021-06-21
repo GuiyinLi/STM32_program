@@ -1,0 +1,7 @@
+R1=03      ;波特率,03=9600
+R2=0C      ;Sys_CFG
+R3=5A      ;
+RA=A5      ;
+RUN_DWIN_OS;
+RC=00      ;
+

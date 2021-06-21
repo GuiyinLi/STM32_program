@@ -1,0 +1,17 @@
+--cpu Cortex-M3
+".\startup_stm32f10x_hd.o"
+".\main.o"
+".\pwm_output.o"
+".\stm32f10x_it.o"
+".\led.o"
+".\misc.o"
+".\stm32f10x_tim.o"
+".\stm32f10x_gpio.o"
+".\stm32f10x_rcc.o"
+".\stm32f10x_flash.o"
+".\core_cm3.o"
+".\system_stm32f10x.o"
+--strict --scatter ".\STM32-DEMO.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\STM32-DEMO.map" -o .\STM32-DEMO.axf

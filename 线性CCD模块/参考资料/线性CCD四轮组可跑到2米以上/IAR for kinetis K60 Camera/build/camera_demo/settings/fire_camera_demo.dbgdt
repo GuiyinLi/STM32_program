@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1221</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>915</ColumnWidth1>
+        <ColumnWidth2>244</ColumnWidth2>
+        <ColumnWidth3>61</ColumnWidth3>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>1179</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <ShowCodeCoverage>0</ShowCodeCoverage><ShowInstrProfiling>0</ShowInstrProfiling></Disassembly>
+    <WATCH_1><expressions><item>L</item><item>CCD_pic</item><item>Rx_Buff</item><item>temp</item><item>i</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>173</item><item>150</item><item>100</item><item>100</item></col-widths></WATCH_1></Static>
+    <Windows>
+      
+      
+      
+    <Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-22163-26895</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-21640-26905</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab>
+            <Identity>TabID-143-26898</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>fire_camera_demo</ExpandedNode><ExpandedNode>fire_camera_demo/app</ExpandedNode><ExpandedNode>fire_camera_demo/common</ExpandedNode><ExpandedNode>fire_camera_demo/cpu</ExpandedNode></NodeDict></Session>
+          </Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-10891-26901</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd4><Wnd5><Tabs><Tab><Identity>TabID-29960-5077</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd5></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\app\isr.c</Filename><XPos>0</XPos><YPos>350</YPos><SelStart>8218</SelStart><SelEnd>8218</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\uart\uart.c</Filename><XPos>0</XPos><YPos>175</YPos><SelStart>6931</SelStart><SelEnd>6931</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\common\calculation.c</Filename><XPos>0</XPos><YPos>79</YPos><SelStart>1927</SelStart><SelEnd>1927</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\MMA\MMA.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>541</SelStart><SelEnd>541</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\Motor\motor.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1053</SelStart><SelEnd>1053</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\E6A2\e6a2.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>273</SelStart><SelEnd>273</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\cpu\headers\MK60DZ10.h</Filename><XPos>0</XPos><YPos>11155</YPos><SelStart>631516</SelStart><SelEnd>631516</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\adc\adc.c</Filename><XPos>0</XPos><YPos>106</YPos><SelStart>4413</SelStart><SelEnd>4413</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\FTM\FTM.c</Filename><XPos>0</XPos><YPos>303</YPos><SelStart>10891</SelStart><SelEnd>10891</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\exti\exti.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\gpio\gpio.c</Filename><XPos>0</XPos><YPos>42</YPos><SelStart>1140</SelStart><SelEnd>1921</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\projects\fire_camera_demo\main.c</Filename><XPos>0</XPos><YPos>243</YPos><SelStart>5885</SelStart><SelEnd>5885</SelEnd></Tab><ActiveTab>11</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01ae0fc0><key>iaridepm.enu1</key></Toolbar-01ae0fc0></Sizes></Row0><Row1><Sizes><Toolbar-0af96690><key>armjlink.enu1</key></Toolbar-0af96690></Sizes></Row1><Row2><Sizes><Toolbar-0f188868><key>debuggergui.enu1</key></Toolbar-0f188868></Sizes></Row2></Top><Left><Row0><Sizes/></Row0></Left><Right><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>427</Bottom><Right>130</Right><x>-2</x><y>-2</y><xscreen>202</xscreen><yscreen>200</yscreen><sizeHorzCX>157813</sizeHorzCX><sizeHorzCY>278552</sizeHorzCY><sizeVertCX>103125</sizeVertCX><sizeVertCY>597493</sizeVertCY></Rect></Wnd4></Sizes></Row0><Row1><Sizes><Wnd5><Rect><Top>-2</Top><Left>128</Left><Bottom>427</Bottom><Right>533</Right><x>128</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>278552</sizeHorzCY><sizeVertCX>316406</sizeVertCX><sizeVertCY>597493</sizeVertCY></Rect></Wnd5></Sizes></Row1></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>200</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>278552</sizeHorzCY><sizeVertCX>157813</sizeVertCX><sizeVertCY>278552</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

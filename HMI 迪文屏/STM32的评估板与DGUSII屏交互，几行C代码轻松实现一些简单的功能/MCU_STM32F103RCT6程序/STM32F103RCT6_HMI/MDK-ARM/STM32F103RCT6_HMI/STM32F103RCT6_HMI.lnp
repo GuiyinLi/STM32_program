@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"stm32f103rct6_hmi\startup_stm32f103xe.o"
+"stm32f103rct6_hmi\main.o"
+"stm32f103rct6_hmi\stm32f1xx_it.o"
+"stm32f103rct6_hmi\stm32f1xx_hal_msp.o"
+"stm32f103rct6_hmi\stm32f1xx_hal_gpio_ex.o"
+"stm32f103rct6_hmi\stm32f1xx_hal_tim.o"
+"stm32f103rct6_hmi\stm32f1xx_hal_tim_ex.o"
+"stm32f103rct6_hmi\stm32f1xx_hal_uart.o"
+"stm32f103rct6_hmi\stm32f1xx_hal.o"
+"stm32f103rct6_hmi\stm32f1xx_hal_rcc.o"
+"stm32f103rct6_hmi\stm32f1xx_hal_rcc_ex.o"
+"stm32f103rct6_hmi\stm32f1xx_hal_gpio.o"
+"stm32f103rct6_hmi\stm32f1xx_hal_dma.o"
+"stm32f103rct6_hmi\stm32f1xx_hal_cortex.o"
+"stm32f103rct6_hmi\stm32f1xx_hal_pwr.o"
+"stm32f103rct6_hmi\stm32f1xx_hal_flash.o"
+"stm32f103rct6_hmi\stm32f1xx_hal_flash_ex.o"
+"stm32f103rct6_hmi\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "STM32F103RCT6_HMI\STM32F103RCT6_HMI.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32F103RCT6_HMI.map" -o STM32F103RCT6_HMI\STM32F103RCT6_HMI.axf

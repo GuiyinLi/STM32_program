@@ -1,0 +1,14 @@
+..\obj\key1.o: ..\FWLIB\KEY1\key1.c
+..\obj\key1.o: ..\USER\stm32f10x.h
+..\obj\key1.o: ..\CORE\core_cm3.h
+..\obj\key1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\key1.o: ..\USER\system_stm32f10x.h
+..\obj\key1.o: ..\USER\stm32f10x_conf.h
+..\obj\key1.o: ..\STM3210X\inc\stm32f10x_gpio.h
+..\obj\key1.o: ..\USER\stm32f10x.h
+..\obj\key1.o: ..\STM3210X\inc\stm32f10x_rcc.h
+..\obj\key1.o: ..\STM3210X\inc\stm32f10x_usart.h
+..\obj\key1.o: ..\STM3210X\inc\misc.h
+..\obj\key1.o: ..\FWLIB\KEY1\key1.h
+..\obj\key1.o: ..\SYSTEM\sys\sys.h
+..\obj\key1.o: ..\FWLIB\LED\led.h

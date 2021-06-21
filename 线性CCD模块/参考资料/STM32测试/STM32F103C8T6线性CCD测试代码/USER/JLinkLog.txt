@@ -1,0 +1,42 @@
+T04F4 006:646 SEGGER J-Link V6.46 Log File (0000ms, 3034ms total)
+T04F4 006:646 DLL Compiled: May 23 2019 17:49:56 (0000ms, 3034ms total)
+T04F4 006:646 Logging started @ 2019-12-07 11:12 (0000ms, 3034ms total)
+T04F4 006:646 JLINK_SetWarnOutHandler(...) (0000ms, 3034ms total)
+T04F4 006:646 JLINK_OpenEx(...)
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N: 20090928
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull
+TELNET listener socket opened on port 19021WEBSRV 
+Starting webserver (0138ms, 3172ms total)
+T04F4 006:646 WEBSRV Webserver running on local port 19080 (0139ms, 3173ms total)
+T04F4 006:646   returns O.K. (0139ms, 3173ms total)
+T04F4 006:786 JLINK_GetEmuCaps()  returns 0x88EA5833 (0000ms, 3174ms total)
+T04F4 006:786 JLINK_TIF_GetAvailable(...) (0001ms, 3175ms total)
+T04F4 006:787 JLINK_SetErrorOutHandler(...) (0000ms, 3175ms total)
+T04F4 006:787 JLINK_ExecCommand("ProjectFile = "D:\Learn\STM32\STM32F1\线性CCD模块-TSL1401\STM32测试\STM32F103C8T6线性CCD测试代码\USER\JLinkSettings.ini"", ...).   returns 0x00 (0029ms, 3204ms total)
+T04F4 006:816 JLINK_ExecCommand("Device = STM32F103C8", ...). Device "STM32F103C8" selected.  returns 0x00 (0009ms, 3213ms total)
+T04F4 006:825 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 3213ms total)
+T04F4 006:825 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 3213ms total)
+T04F4 006:825 JLINK_GetDLLVersion()  returns 64600 (0000ms, 3213ms total)
+T04F4 006:825 JLINK_GetFirmwareString(...) (0000ms, 3213ms total)
+T04F4 006:825 JLINK_GetDLLVersion()  returns 64600 (0000ms, 3213ms total)
+T04F4 006:825 JLINK_GetCompileDateTime() (0000ms, 3213ms total)
+T04F4 006:825 JLINK_GetFirmwareString(...) (0000ms, 3213ms total)
+T04F4 006:825 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 3213ms total)
+T04F4 006:825 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 3214ms total)
+T04F4 006:826 JLINK_SetSpeed(5000) (0000ms, 3214ms total)
+T04F4 006:827 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 3214ms total)
+T04F4 006:827 JLINK_Reset() >0x10B TIF>Found SW-DP with ID 0x1BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF>
+ >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x10B TIF>Found SW-DP with ID 0x1BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF>Scanning AP map to find all available APs >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+ >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>AP[1]: Stopped AP scan as end of AP map has been reachedAP[0]: AHB-AP (IDR: 0x14770011)Iterating through AP map to find AHB-AP to use >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>AP[0]: Core foundAP[0]: AHB-AP ROM base: 0xE00FF000 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF>
+ >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>CPUID register: 0x411FC231. Implementer code: 0x41 (ARM)Found Cortex-M3 r1p1, Little endian. -- Max. mem block: 0x00002C18 -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE0002000)FPUnit: 6 code (BP) slots and 2 literal slots -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000)
+ -- CPU_ReadMem(4 bytes @ 0xE000ED88) -- CPU_WriteMem(4 bytes @ 0xE000ED88) -- CPU_ReadMem(4 bytes @ 0xE000ED88) -- CPU_WriteMem(4 bytes @ 0xE000ED88)CoreSight components:ROMTbl[0] @ E00FF000 -- CPU_ReadMem(16 bytes @ 0xE00FF000) -- CPU_ReadMem(16 bytes @ 0xE000EFF0) -- CPU_ReadMem(16 bytes @ 0xE000EFE0)ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 001BB000 SCS -- CPU_ReadMem(16 bytes @ 0xE0001FF0) -- CPU_ReadMem(16 bytes @ 0xE0001FE0)ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 001BB002 DWT
+ -- CPU_ReadMem(16 bytes @ 0xE0002FF0) -- CPU_ReadMem(16 bytes @ 0xE0002FE0)ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 000BB003 FPB -- CPU_ReadMem(16 bytes @ 0xE0000FF0) -- CPU_ReadMem(16 bytes @ 0xE0000FE0)ROMTbl[0][3]: E0000000, CID: B105E00D, PID: 001BB001 ITM -- CPU_ReadMem(16 bytes @ 0xE00FF010) -- CPU_ReadMem(16 bytes @ 0xE0040FF0) -- CPU_ReadMem(16 bytes @ 0xE0040FE0)ROMTbl[0][4]: E0040000, CID: B105900D, PID: 001BB923 TPIU-Lite -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0)
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)Reset: Halt core after reset via DEMCR.VC_CORERESET. >0x35 TIF>Reset: Reset device via AIRCR.SYSRESETREQ. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) >0x0D TIF> >0x28 TIF> -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE0002000)
+ -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) (0231ms, 3445ms total)
+T04F4 007:059 JLINK_GetId() >0x0D TIF> >0x21 TIF>  returns 0x1BA01477 (0000ms, 3445ms total)
+T04F4 007:074 JLINK_GetFirmwareString(...) (0000ms, 3445ms total)
+T04F4 014:256 JLINK_Close() -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001004) >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> (0021ms, 3466ms total)
+T04F4 014:256  (0021ms, 3466ms total)
+T04F4 014:256 Closed (0021ms, 3466ms total)

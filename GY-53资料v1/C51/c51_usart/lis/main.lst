@@ -1,0 +1,72 @@
+C51 COMPILER V8.02   MAIN                                                                  01/16/2017 09:42:17 PAGE 1   
+
+
+C51 COMPILER V8.02, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN ..\output\main.obj
+COMPILER INVOKED BY: D:\Program Files (x86)\Keil\C51\BIN\C51.EXE main.c BROWSE INCDIR(..\Peripherals\inc\) DEBUG OBJECTE
+                    -XTEND PRINT(..\lis\main.lst) OBJECT(..\output\main.obj)
+
+line level    source
+
+   1          #include <reg52.h>
+   2          #include "usart.h"
+   3          #include "iic.h"  
+   4          /*
+   5          硬件接法：
+   6          GY-53---c51
+   7          1、GY-53_RX---c51_TX,c51复位将发送A5 45 EA 给模块
+   8          2、c51_TX---FT232,STM32将数据上传给上位机
+   9          3、GY-53_TX---c51_RX，接收模块角度数据
+  10          软件说明:
+  11          该程序采用串口方式获取模块数据，波特率9600
+  12          
+  13          注：中断函数位于stc_it.c
+  14          联系方式：
+  15          http://shop62474960.taobao.com/?spm=a230r.7195193.1997079397.2.9qa3Ky&v=1
+  16          */
+  17          void send_com(u8 datas)
+  18          {
+  19   1              u8 bytes[3]={0};
+  20   1              bytes[0]=0xa5;
+  21   1              bytes[1]=datas;//功能字节
+  22   1              USART_Send(bytes,3);//发送帧头、功能字节、校验和
+  23   1      }
+  24          
+  25          int main(void)
+  26          {
+  27   1      
+  28   1          u8 sum=0,i=0;
+  29   1              uint16_t distance=0;
+  30   1              Usart_Int(9600);
+  31   1              send_com(0x45);//发送读方位角指令
+  32   1              while(1)
+  33   1              {
+  34   2                      if(Receive_ok)//串口接收完毕
+  35   2                      {
+  36   3                              for(sum=0,i=0;i<(re_Buf_Data[3]+4);i++)//rgb_data[3]=3
+  37   3                              sum+=re_Buf_Data[i];
+  38   3                              if(sum==re_Buf_Data[i])//校验和判断
+  39   3                              {
+  40   4                                      distance=re_Buf_Data[4]<<8|re_Buf_Data[5];
+  41   4                                      send_3out(&re_Buf_Data[4],3,0x15);//上传给上位机
+  42   4                              }
+  43   3                              Receive_ok=0;//处理数据完毕标志
+  44   3                      }       
+  45   2              }
+  46   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    141    ----
+   CONSTANT SIZE    =      3    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       8
+C51 COMPILER V8.02   MAIN                                                                  01/16/2017 09:42:17 PAGE 2   
+
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

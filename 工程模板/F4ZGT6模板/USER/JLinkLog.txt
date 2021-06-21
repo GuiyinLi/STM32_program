@@ -1,0 +1,27 @@
+
+T0324 000:425 SEGGER J-Link V4.96d Log File (0002ms, 0281ms total)
+T0324 000:425 DLL Compiled: Jan 29 2015 11:45:37 (0002ms, 0281ms total)
+T0324 000:425 Logging started @ 2018-09-23 11:19 (0002ms, 0281ms total)
+T0324 000:427 JLINK_SetWarnOutHandler(...) (0000ms, 0281ms total)
+T0324 000:427 JLINK_OpenEx(...)
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N: 20090928
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0290ms, 0571ms total)
+T0324 000:717 JLINK_SetErrorOutHandler(...) (0001ms, 0572ms total)
+T0324 000:718 JLINK_ExecCommand("ProjectFile = "D:\单片机学习\STM32F1\工程模板\F4ZGT6模板\USER\JLinkSettings.ini"", ...)  returns 0x00 (0006ms, 0578ms total)
+T0324 000:738 JLINK_ExecCommand("Device = STM32F407ZG", ...)Device "STM32F407ZG" selected.  returns 0x00 (0014ms, 0592ms total)
+T0324 000:752 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0592ms total)
+T0324 000:752 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0592ms total)
+T0324 000:752 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0592ms total)
+T0324 000:752 JLINK_GetFirmwareString(...) (0000ms, 0592ms total)
+T0324 000:836 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0592ms total)
+T0324 000:836 JLINK_GetCompileDateTime() (0000ms, 0592ms total)
+T0324 000:845 JLINK_GetFirmwareString(...) (0000ms, 0592ms total)
+T0324 000:855 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0592ms total)
+T0324 000:896 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0003ms, 0595ms total)
+T0324 000:899 JLINK_SetSpeed(20000) (0000ms, 0595ms total)
+T0324 000:899 JLINK_GetIdData(...) >0x2F8 JTAG>Could not measure total IR len. TDO is constant high. >0x30 JTAG>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x2F8 JTAG>Could not measure total IR len. TDO is constant high. >0x30 JTAG> (0126ms, 0721ms total)
+T0324 002:133 JLINK_Close() (0001ms, 0722ms total)
+T0324 002:133  (0001ms, 0722ms total)
+T0324 002:133 Closed (0001ms, 0722ms total)

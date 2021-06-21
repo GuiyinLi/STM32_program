@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\FWlib\inc -I ..\USER -I ..\CMSIS
+-I.\RTE\_TIM3-PWM-DEMO
+-I"E:\Keil5 MDK\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include"
+-I"E:\Keil5 MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include"
+-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\led.o --omf_browse .\led.crf --depend .\led.d "led.c"

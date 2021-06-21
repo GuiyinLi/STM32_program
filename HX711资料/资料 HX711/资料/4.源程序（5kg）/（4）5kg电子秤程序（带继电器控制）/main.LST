@@ -1,0 +1,247 @@
+C51 COMPILER V9.52.0.0   MAIN                                                              10/23/2016 13:42:00 PAGE 1   
+
+
+C51 COMPILER V9.52.0.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE main.c BROWSE DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          /**********************************************************************
+   2          
+   3          ***********************************************************************/
+   4          
+   5          #include "main.h"
+   6          #include "HX711.h"
+   7          #include "uart.h"
+   8          #include "LCD1602.h"
+   9          #include "eeprom52.h"
+  10          #define   uchar unsigned char
+  11          #define   uint unsigned int
+  12          unsigned long HX711_Buffer = 0;
+  13          unsigned long Weight_Maopi = 0;
+  14          long Weight_Shiwu = 0;
+  15          long Weight_warn = 0;
+  16          
+  17          unsigned char flag = 0;
+  18          bit Flag_ERROR = 0;
+  19          sbit speak= P1^7;  //蜂鸣器
+  20          sbit jiare= P3^0; //继电器接口
+  21          uchar Ncunchu[5];
+  22          //校准参数
+  23          //因为不同的传感器特性曲线不是很一致，因此，每一个传感器需要矫正这里这个参数才能使测量值很准确。
+  24          //当发现测试出来的重量偏大时，增加该数值。
+  25          //如果测试出来的重量偏小时，减小改数值。
+  26          //该值可以为小数
+  27          #define GapValue 430
+  28          
+  29          
+  30          
+  31          /******************把数据保存到单片机内部eeprom中******************/
+  32          void write_eeprom()
+  33          {  
+  34   1      
+  35   1        
+  36   1        Ncunchu[0] = Weight_warn/256;
+  37   1        Ncunchu[1] = Weight_warn%256;
+  38   1        SectorErase(0x2000);
+  39   1        byte_write(0x2011,Ncunchu[0]);
+  40   1        byte_write(0x2012,Ncunchu[1]);
+  41   1      
+  42   1      
+  43   1      
+  44   1        byte_write(0x2060, a_a);  
+  45   1      }
+  46          
+  47          /******************把数据从单片机内部eeprom中读出来*****************/
+  48          void read_eeprom()
+  49          {
+  50   1      
+  51   1        
+  52   1        Ncunchu[0] = byte_read(0x2011);
+  53   1        Ncunchu[1] = byte_read(0x2012);
+  54   1        Weight_warn  = Ncunchu[0]*256+Ncunchu[1];
+  55   1      
+C51 COMPILER V9.52.0.0   MAIN                                                              10/23/2016 13:42:00 PAGE 2   
+
+  56   1      
+  57   1        
+  58   1          a_a      = byte_read(0x2060);
+  59   1      }
+  60          
+  61          /**************开机自检eeprom初始化*****************/
+  62          void init_eeprom()
+  63          {
+  64   1        read_eeprom();    //先读
+  65   1        if(a_a != 5)    //新的单片机初始单片机内问eeprom
+  66   1        {
+  67   2           a_a =5;
+  68   2           Weight_warn = 500;
+  69   2             write_eeprom();
+  70   2        } 
+  71   1        
+  72   1        
+  73   1        
+  74   1      }
+  75          
+  76          //****************************************************
+  77          //主函数
+  78          //****************************************************
+  79          void main()
+  80          {
+  81   1          Uart_Init();
+  82   1          Send_Word("Welcome to use!\n");
+  83   1          Send_Word("Made by Beetle Electronic Technology!\n");
+  84   1        
+  85   1        Init_LCD1602();
+  86   1        LCD1602_write_com(0x80);
+  87   1        LCD1602_write_word("Weight  Warning");
+  88   1        init_eeprom();            //读eeprom数据
+  89   1       
+  90   1        Delay_ms(1000);    //延时,等待传感器稳定
+  91   1        Get_Maopi();        //称毛皮重量
+  92   1          Delay_ms(100);     
+  93   1        Get_Maopi();        //称毛皮重量
+  94   1        Delay_ms(100);     
+  95   1        Get_Maopi();        //多次去皮有利于稳定
+  96   1        
+  97   1        while(1)
+  98   1        {
+  99   2          EA = 0;
+ 100   2          Get_Weight();     //称重
+ 101   2          EA = 1;
+ 102   2      
+ 103   2          Scan_Key();
+ 104   2      
+ 105   2          //显示当前重量
+ 106   2          if( Flag_ERROR == 1)
+ 107   2          {
+ 108   3            Send_Word("ERROR\n");
+ 109   3            
+ 110   3            LCD1602_write_com(0x80+0x40);
+ 111   3            LCD1602_write_word("ERROR ");
+ 112   3            speak=0;
+ 113   3          }   
+ 114   2          else
+ 115   2          {         
+ 116   3            //speak=1;
+ 117   3                  LCD1602_write_com(0x80+0x40);
+C51 COMPILER V9.52.0.0   MAIN                                                              10/23/2016 13:42:00 PAGE 3   
+
+ 118   3            LCD1602_write_data(Weight_Shiwu/1000 + 0X30);
+ 119   3                  LCD1602_write_data(Weight_Shiwu%1000/100 + 0X30);
+ 120   3                  LCD1602_write_data(Weight_Shiwu%100/10 + 0X30);
+ 121   3                  LCD1602_write_data(Weight_Shiwu%10 + 0X30);
+ 122   3            LCD1602_write_word(" g");
+ 123   3      
+ 124   3            LCD1602_write_com(0x80+0x40+8);
+ 125   3            LCD1602_write_data(Weight_warn/1000 + 0X30);
+ 126   3                  LCD1602_write_data(Weight_warn%1000/100 + 0X30);
+ 127   3                  LCD1602_write_data(Weight_warn%100/10 + 0X30);
+ 128   3                  LCD1602_write_data(Weight_warn%10 + 0X30);
+ 129   3            LCD1602_write_word(" g");
+ 130   3          }
+ 131   2          
+ 132   2        }
+ 133   1      }
+ 134          
+ 135          //扫描按键
+ 136          void Scan_Key()
+ 137          {
+ 138   1        if(KEY1 == 0)
+ 139   1        {
+ 140   2          Delay_ms(5);
+ 141   2          if(KEY1 == 0)
+ 142   2          {
+ 143   3             Get_Maopi();
+ 144   3          } 
+ 145   2        }
+ 146   1      
+ 147   1        if(KEY2 == 0)
+ 148   1        {
+ 149   2          Delay_ms(20);
+ 150   2          if(KEY2 == 0)
+ 151   2          {
+ 152   3          //  while(KEY2 == 0);
+ 153   3             if(Weight_warn<=5000)   { Weight_warn+=1;}
+ 154   3              write_eeprom();       //保存数据
+ 155   3          } 
+ 156   2        }
+ 157   1      
+ 158   1        if(KEY3 == 0)
+ 159   1        {
+ 160   2          Delay_ms(20);
+ 161   2          if(KEY3 == 0)
+ 162   2          {
+ 163   3          //  while(KEY3 == 0);
+ 164   3              if(Weight_warn>=50) Weight_warn-=1;
+ 165   3             write_eeprom();       //保存数据
+ 166   3          } 
+ 167   2        }
+ 168   1      
+ 169   1        if(Weight_Shiwu<Weight_warn)   {jiare=1; speak=1;}   //继电器关闭
+ 170   1        if(Weight_Shiwu>=Weight_warn)  {jiare=0; speak=0;}   //继电器打开
+ 171   1      }
+ 172          
+ 173          //****************************************************
+ 174          //称重
+ 175          //****************************************************
+ 176          void Get_Weight()
+ 177          {
+ 178   1        Weight_Shiwu = HX711_Read();
+ 179   1        Weight_Shiwu = Weight_Shiwu - Weight_Maopi;   //获取净重
+C51 COMPILER V9.52.0.0   MAIN                                                              10/23/2016 13:42:00 PAGE 4   
+
+ 180   1        if(Weight_Shiwu > 0)      
+ 181   1        { 
+ 182   2          Weight_Shiwu = (unsigned int)((float)Weight_Shiwu/GapValue);  //计算实物的实际重量
+ 183   2                                          
+ 184   2                                          
+ 185   2          if(Weight_Shiwu > 5000)   //超重报警
+ 186   2          {
+ 187   3            Flag_ERROR = 1; 
+ 188   3          }
+ 189   2          else
+ 190   2          {
+ 191   3            Flag_ERROR = 0;
+ 192   3          }
+ 193   2        }
+ 194   1        else
+ 195   1        {
+ 196   2          Weight_Shiwu = 0;
+ 197   2        //  Flag_ERROR = 1;       //负重报警
+ 198   2        }
+ 199   1        
+ 200   1      }
+ 201          
+ 202          //****************************************************
+ 203          //获取毛皮重量
+ 204          //****************************************************
+ 205          void Get_Maopi()
+ 206          {
+ 207   1        Weight_Maopi = HX711_Read();  
+ 208   1      } 
+ 209          
+ 210          //****************************************************
+ 211          //MS延时函数(12M晶振下测试)
+ 212          //****************************************************
+ 213          void Delay_ms(unsigned int n)
+ 214          {
+ 215   1        unsigned int  i,j;
+ 216   1        for(i=0;i<n;i++)
+ 217   1          for(j=0;j<123;j++);
+ 218   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   1014    ----
+   CONSTANT SIZE    =     89    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     23    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =      1    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

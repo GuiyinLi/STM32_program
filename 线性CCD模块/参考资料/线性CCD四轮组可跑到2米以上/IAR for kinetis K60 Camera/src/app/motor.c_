@@ -1,0 +1,55 @@
+#include "common.h"
+#include "include.h"
+#include "sci.h"
+#include "isr.h"
+#include "imgprocess.h"
+#include "globle.h"
+#include "control.h"
+#include "motor.h"
+#include "gpio.h"
+
+
+void Motor_init(void)
+{
+  FTM_PWM_init(FTM0, CH0, motor_frequency, 0);                     //PWM  2Khz
+  gpio_init (PORTC, 5, GPO, 0);                           //DIR  out
+}
+
+
+void speed(s16 duty)
+{
+  if(duty>=0)
+  {
+    if(duty>1000)
+    {
+      duty=1000;
+    }
+    FTM_PWM_Duty(FTM0, CH0, duty);
+    gpio_set (PORTC,5, 0) ; 
+  }
+    
+  else
+  {
+    duty=-duty; 
+    if(duty>1000)
+    {
+      duty=1000;
+    }
+    FTM_PWM_Duty(FTM0, CH0, duty);
+    gpio_set (PORTC,5, 1) ; 
+  
+  }
+      
+}
+
+
+void Mstop(void)
+{
+  speed(0);
+}
+
+
+
+
+
+

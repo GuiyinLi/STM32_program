@@ -1,0 +1,74 @@
+C51 COMPILER V8.02   STC_IT                                                                01/16/2017 11:53:15 PAGE 1   
+
+
+C51 COMPILER V8.02, COMPILATION OF MODULE STC_IT
+OBJECT MODULE PLACED IN ..\output\stc_it.obj
+COMPILER INVOKED BY: D:\Program Files (x86)\Keil\C51\BIN\C51.EXE ..\Peripherals\src\stc_it.c BROWSE INCDIR(..\PERIPHERAL
+                    -S\INC\) DEBUG OBJECTEXTEND PRINT(..\lis\stc_it.lst) OBJECT(..\output\stc_it.obj)
+
+line level    source
+
+   1          #include "stc_it.h"
+   2          #include "usart.h"
+   3          
+   4          //TIME0中断1
+   5          uint8_t stata=0;
+   6          void TIME0_IRQHandler(void)interrupt 1
+   7          {
+   8   1         TH0   =0x0; 
+   9   1         TL0   =0x0;
+  10   1      }
+  11          //串口中断
+  12          void USART_IRQHandler(void)interrupt 4
+  13          {
+  14   1              static uint8_t i=0,rebuf[3]={0};
+  15   1              uint8_t sum=0;
+  16   1          if(TI)//发送完成标志
+  17   1              {
+  18   2                TI=0;//清发送完成标志
+  19   2                send_ok=0;//缓存标志置0 
+  20   2              }
+  21   1              if(RI)//接收完成标志
+  22   1              {
+  23   2                      rebuf[i++]=SBUF;
+  24   2                      RI=0;//清中断接收标志
+  25   2                      if(!(rebuf[0]==0xa5))//判断帧头
+  26   2                      i=0;
+  27   2                      if(i==3)
+  28   2                      {
+  29   3                              sum=rebuf[0]+rebuf[1];
+  30   3                              if(sum==rebuf[2])
+  31   3                              {
+  32   4                                      if(rebuf[1]==0xbb)//校准指令
+  33   4                                      {
+  34   5                                              Calibration=1;
+  35   5                                       
+  36   5                                      }
+  37   4                                      if(rebuf[1]==0x51)//读数据
+  38   4                                      {
+  39   5                                              Calibration=0;
+  40   5                                              
+  41   5                                      }
+  42   4                              }
+  43   3                              i=0;
+  44   3                      }
+  45   2              
+  46   2              }
+  47   1      
+  48   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     99    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+C51 COMPILER V8.02   STC_IT                                                                01/16/2017 11:53:15 PAGE 2   
+
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      5    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

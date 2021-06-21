@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include
+-I "D:\单片机学习\STM32Cube\HMI 迪文屏\STM32的评估板与DGUSII屏交互，几行C代码轻松实现一些简单的功能\MCU_STM32F103RCT6程序\STM32F103RCT6_HMI\MDK-ARM\RTE"
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE
+-o stm32f103rct6_hmi\main.o --omf_browse stm32f103rct6_hmi\main.crf --depend stm32f103rct6_hmi\main.d "../Src/main.c"

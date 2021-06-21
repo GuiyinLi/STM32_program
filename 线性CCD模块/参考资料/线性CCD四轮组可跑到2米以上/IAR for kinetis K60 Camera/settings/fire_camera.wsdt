@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>fire_camera_demo/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>220</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      <PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>915</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+    <TerminalIO/><Debug-Log><ColumnWidth0>22</ColumnWidth0><ColumnWidth1>1219</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-20418-4021</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-2757-26849</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-5487-24126</Identity><TabName>Workspace</TabName><Factory>Workspace</Factory><Session><NodeDict><ExpandedNode>fire_camera_demo</ExpandedNode><ExpandedNode>fire_camera_demo/app</ExpandedNode><ExpandedNode>fire_camera_demo/cpu</ExpandedNode><ExpandedNode>fire_camera_demo/drivers</ExpandedNode><ExpandedNode>fire_camera_demo/header</ExpandedNode><ExpandedNode>fire_camera_demo/lib</ExpandedNode></NodeDict></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\app\isr.c</Filename><XPos>0</XPos><YPos>350</YPos><SelStart>8218</SelStart><SelEnd>8218</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\uart\uart.c</Filename><XPos>0</XPos><YPos>175</YPos><SelStart>6931</SelStart><SelEnd>6931</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\common\calculation.c</Filename><XPos>0</XPos><YPos>924</YPos><SelStart>20848</SelStart><SelEnd>20848</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\MMA\MMA.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>541</SelStart><SelEnd>541</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\Motor\motor.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>1053</SelStart><SelEnd>1053</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\E6A2\e6a2.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>273</SelStart><SelEnd>273</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\cpu\headers\MK60DZ10.h</Filename><XPos>0</XPos><YPos>11155</YPos><SelStart>631516</SelStart><SelEnd>631516</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\adc\adc.c</Filename><XPos>0</XPos><YPos>106</YPos><SelStart>4413</SelStart><SelEnd>4413</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\FTM\FTM.c</Filename><XPos>0</XPos><YPos>303</YPos><SelStart>10891</SelStart><SelEnd>10891</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\exti\exti.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\drivers\gpio\gpio.c</Filename><XPos>0</XPos><YPos>42</YPos><SelStart>1140</SelStart><SelEnd>1921</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\projects\fire_camera_demo\main.c</Filename><XPos>0</XPos><YPos>242</YPos><SelStart>5966</SelStart><SelEnd>5966</SelEnd></Tab><ActiveTab>11</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00e50fc0><key>iaridepm.enu1</key></Toolbar-00e50fc0></Sizes></Row0></Top><Left><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>550</Bottom><Right>311</Right><x>-2</x><y>-2</y><xscreen>386</xscreen><yscreen>292</yscreen><sizeHorzCX>301563</sizeHorzCX><sizeHorzCY>406685</sizeHorzCY><sizeVertCX>244531</sizeVertCX><sizeVertCY>768802</sizeVertCY></Rect></Wnd3></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>123</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>125</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>174095</sizeHorzCY><sizeVertCX>3873438</sizeVertCX><sizeVertCY>2610028</sizeVertCY></Rect></Wnd2></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

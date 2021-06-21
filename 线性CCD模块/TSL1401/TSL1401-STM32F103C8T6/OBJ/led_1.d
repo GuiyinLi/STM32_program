@@ -1,0 +1,13 @@
+..\obj\led_1.o: ..\HARDWARD\led.c
+..\obj\led_1.o: ..\HARDWARD\led.h
+..\obj\led_1.o: ..\SYSTEM\sys\sys.h
+..\obj\led_1.o: ..\USER\stm32f10x.h
+..\obj\led_1.o: ..\CORE\core_cm3.h
+..\obj\led_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\led_1.o: ..\USER\system_stm32f10x.h
+..\obj\led_1.o: ..\USER\stm32f10x_conf.h
+..\obj\led_1.o: ..\STM3210X\inc\stm32f10x_gpio.h
+..\obj\led_1.o: ..\USER\stm32f10x.h
+..\obj\led_1.o: ..\STM3210X\inc\stm32f10x_rcc.h
+..\obj\led_1.o: ..\STM3210X\inc\stm32f10x_usart.h
+..\obj\led_1.o: ..\STM3210X\inc\misc.h

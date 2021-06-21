@@ -1,0 +1,10 @@
+#ifndef __MOTOR_H__
+#define __MOTOR_H__
+
+#include "common.h"
+#include "gpio.h"
+#include "ov7725.h"
+extern void Motor_init(void);
+extern void speed(s16 duty);
+extern void Mstop(void);
+#endif  //__MOTOR_H__

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="1000" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="" TargetDevice="Cortex-M3" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="D:\Learn\STM32\STM32F1\ÏßÐÔCCDÄ£¿é\TSL1401\TSL1401-STM32F103C8T6\OBJ\TEST.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="500000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="adc_value" Address="0x20000032" Type="ushort" TypeID="7" Size="2" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="4" ShowInGraph="0" ACCoupling="0" YOffset="100" IsAutoConfig="0" YResolution="50" MaxValue="1375" File="..\HARDWARE\ADC\adc.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Median" Address="0x20000038" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="7" YMaxSampled="117" YAvgSampled="70" Offset="6" ShowInGraph="1" ACCoupling="0" YOffset="100" IsAutoConfig="0" YResolution="50" MaxValue="200" File="..\HARDWARE\CCD\ccd.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Threshold" Address="0x2000003C" Type="float" TypeID="1" Size="4" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="5" YMaxSampled="136" YAvgSampled="26" Offset="10" ShowInGraph="1" ACCoupling="0" YOffset="100" IsAutoConfig="0" YResolution="20" MaxValue="40" File="..\HARDWARE\CCD\ccd.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

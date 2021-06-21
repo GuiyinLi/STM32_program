@@ -1,0 +1,1 @@
+IRremote是库文件，使用红外遥控需要使用到，请放到arduino IDE  libraries文件夹目录下

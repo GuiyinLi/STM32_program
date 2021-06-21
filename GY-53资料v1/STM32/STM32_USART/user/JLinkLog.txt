@@ -1,0 +1,32 @@
+T2F28 004:129 SEGGER J-Link V4.96d Log File (0003ms, 0671ms total)
+T2F28 004:129 DLL Compiled: Jan 29 2015 11:45:37 (0003ms, 0671ms total)
+T2F28 004:129 Logging started @ 2018-09-21 17:11 (0003ms, 0671ms total)
+T2F28 004:132 JLINK_SetWarnOutHandler(...) (0000ms, 0671ms total)
+T2F28 004:132 JLINK_OpenEx(...)
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N: 20160104
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0288ms, 0959ms total)
+T2F28 004:420 JLINK_SetErrorOutHandler(...) (0000ms, 0959ms total)
+T2F28 004:421 JLINK_ExecCommand("ProjectFile = "C:\Users\Dell\Desktop\STM32F1\GY-53×ÊÁÏv1\STM32\STM32_USART\user\JLinkSettings.ini"", ...)  returns 0x00 (0002ms, 0962ms total)
+T2F28 004:423 JLINK_ExecCommand("Device = STM32F103C8", ...)Device "STM32F103C8" selected.  returns 0x00 (0000ms, 0962ms total)
+T2F28 004:424 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0963ms total)
+T2F28 004:424 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0963ms total)
+T2F28 004:424 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0963ms total)
+T2F28 004:424 JLINK_GetFirmwareString(...) (0000ms, 0963ms total)
+T2F28 004:424 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0963ms total)
+T2F28 004:424 JLINK_GetCompileDateTime() (0000ms, 0963ms total)
+T2F28 004:424 JLINK_GetFirmwareString(...) (0000ms, 0963ms total)
+T2F28 004:424 JLINK_GetHardwareVersion()  returns 0x11170 (0001ms, 0964ms total)
+T2F28 004:425 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 0965ms total)
+T2F28 004:426 JLINK_SetSpeed(10000) (0000ms, 0965ms total)
+T2F28 004:427 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0965ms total)
+T2F28 004:427 JLINK_Reset() >0x108 TIF>Found SWD-DP with ID 0x1BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x108 TIF>Found SWD-DP with ID 0x1BA01477 >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+ >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>Found Cortex-M3 r1p1, Little endian. -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE0002000)FPUnit: 6 code (BP) slots and 2 literal slots
+ -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000) -- CPU_ReadMem(4 bytes @ 0xE000ED88) -- CPU_WriteMem(4 bytes @ 0xE000ED88) -- CPU_ReadMem(4 bytes @ 0xE000ED88) -- CPU_WriteMem(4 bytes @ 0xE000ED88) -- CPU_ReadMem(4 bytes @ 0xE00FF010)TPIU fitted. -- CPU_ReadMem(4 bytes @ 0xE00FF014) -- CPU_ReadMem(4 bytes @ 0xE00FF018) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) >0x35 TIF>
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) (0086ms, 1051ms total)
+T2F28 004:513 JLINK_GetId() >0x0D TIF> >0x21 TIF>  returns 0x1BA01477 (0006ms, 1057ms total)
+T2F28 004:526 JLINK_GetFirmwareString(...) (0000ms, 1057ms total)
+T2F28 005:932 JLINK_Close() -- CPU_WriteMem(4 bytes @ 0xE0001004) >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> (0005ms, 1062ms total)
+T2F28 005:932  (0005ms, 1062ms total)
+T2F28 005:932 Closed (0005ms, 1062ms total)
